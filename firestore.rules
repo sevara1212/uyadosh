@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // TEMPORARY: Open all access for development
+    // WARNING: This is NOT secure for production!
+    match /{document=**} {
+      allow read, write: if true;
+    }
+    
+    // Specifically allow everything for activities_upl collection
+    match /activities_upl/{document} {
+      allow read, write, create, update, delete: if true;
+    }
+    
+    // Allow everything for all collections
+    match /{collection}/{document} {
+      allow read, write, create, update, delete: if true;
+    }
+  }
+} 

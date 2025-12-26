@@ -1,0 +1,4891 @@
+[
+  {
+    "id": "1",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdurahmon Abduhamidov",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-08-31",
+    "time": "11:30",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "2",
+    "title": "Basketball at Buka Fit",
+    "sportType": "Basketball",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abror Abdurashidov",
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-03",
+    "time": "9:45",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Pick-up game, looking for fast players."
+  },
+  {
+    "id": "3",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 8,
+    "participantsRegistered": 4,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-10",
+    "time": "21:45",
+    "duration": "60 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "4",
+    "title": "Running at Space Fitness",
+    "sportType": "Running",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Shukrullo Abdulkhakimov",
+      "Nursaid Akbarov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-13",
+    "time": "12:30",
+    "duration": "60 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "5",
+    "title": "Yoga at Lady Only Fitness Studio",
+    "sportType": "Yoga",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 10,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-08-27",
+    "time": "12:45",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "6",
+    "title": "Running at Tashkent City Park",
+    "sportType": "Running",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-24",
+    "time": "13:45",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "7",
+    "title": "Gym at Befit Pro",
+    "sportType": "Gym",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Nursaid Akbarov"
+    ],
+    "date": "2025-09-06",
+    "time": "20:15",
+    "duration": "2 hours",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "8",
+    "title": "Football at Tashkent City Park",
+    "sportType": "Football",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 8,
+    "participants": [
+      "Asilbek Adilov",
+      "Dilnoza Abduvohidova",
+      "Abdusalim Abdukarimov",
+      "Fazliddin Abduholiqov",
+      "Hojiakbar Abdug'offorov",
+      "Hojiakbar Abdugafforov",
+      "Rustambek Abdullayev",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-09",
+    "time": "8:45",
+    "duration": "90 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "9",
+    "title": "Basketball at Buka Fit",
+    "sportType": "Basketball",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov",
+      "Abror Abdurashidov",
+      "Asilbek Adilov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-06",
+    "time": "6:00",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "10",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Asilbek Adilov",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-21",
+    "time": "8:15",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "11",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abdulloh Abdurazzoqov",
+      "Abror Abdurashidov",
+      "Rustambek Abdullayev",
+      "Saidolimxon Akmalxonov"
+    ],
+    "date": "2025-09-03",
+    "time": "17:15",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "12",
+    "title": "Basketball at Strong Gym",
+    "sportType": "Basketball",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 7,
+    "participantsRegistered": 3,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Xonazimxon A'zamova",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-09-16",
+    "time": "7:15",
+    "duration": "90 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "13",
+    "title": "Other at Tashkent City Park",
+    "sportType": "Other",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-08-31",
+    "time": "9:15",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Open to anyone who wants to move."
+  },
+  {
+    "id": "14",
+    "title": "Yoga at Ozonefc Darhan",
+    "sportType": "Yoga",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 7,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Mubina Akbarova",
+      "AHMADXO'JA Abrorhajaev",
+      "Asilbek Adilov",
+      "Abdulloh Abdurazzoqov",
+      "Dilnoza Abduvohidova",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-15",
+    "time": "8:30",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "15",
+    "title": "Football at Yoga Space",
+    "sportType": "Football",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 10,
+    "participants": [
+      "Oysha Akbarova",
+      "Hojiakbar Abdug'offorov",
+      "Mubina Akbarova",
+      "Maftuna Abdukhakimova",
+      "Abubakr Abduraximov",
+      "AHMADXO'JA Abrorhajaev",
+      "Humoyun Abduhalilov",
+      "Abdulaziz Ahmedov",
+      "Saidolimxon Akmalxonov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-09",
+    "time": "13:00",
+    "duration": "90 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "16",
+    "title": "Gym at Buka Fit",
+    "sportType": "Gym",
+    "host": "Shukrullo Abdulkhakimov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Shukrullo Abdulkhakimov",
+      "Saidolimxon Akmalxonov",
+      "Rustambek Abdullayev",
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-28",
+    "time": "18:15",
+    "duration": "2 hours",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "17",
+    "title": "Yoga at Tashkent City Park",
+    "sportType": "Yoga",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 7,
+    "participantsRegistered": 7,
+    "participants": [
+      "Ismoil Abdullayev",
+      "Abdurahmon Abduhamidov",
+      "Abdusalim Abdukarimov",
+      "Dilnoza Ahmadova",
+      "Muhabbatxon Abdurahimova",
+      "Rustambek Abdullayev",
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-09",
+    "time": "7:00",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "18",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 10,
+    "participantsRegistered": 5,
+    "participants": [
+      "Ismoil Abdullayev",
+      "Nursaid Akbarov",
+      "Mubina Abdurahmanova",
+      "Ismoil Abdullayev",
+      "Hojiakbar Abdug'offorov"
+    ],
+    "date": "2025-09-12",
+    "time": "18:00",
+    "duration": "90 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "19",
+    "title": "Gym at Buka Fit",
+    "sportType": "Gym",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-02",
+    "time": "18:15",
+    "duration": "2 hours",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "20",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 9,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdulloh Abdurazzoqov"
+    ],
+    "date": "2025-09-10",
+    "time": "11:45",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "21",
+    "title": "Running at Football Field",
+    "sportType": "Running",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 6,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Oysha Akbarova",
+      "Muhabbatxon Abdurahimova",
+      "Mubina Abdurahmanova",
+      "Rustambek Abdullayev",
+      "Hojiakbar Abdug'offorov"
+    ],
+    "date": "2025-08-27",
+    "time": "10:00",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "22",
+    "title": "Gym at Ozonefc Darhan",
+    "sportType": "Gym",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Asilbek Adilov",
+      "Abubakr Abduraximov",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-08-31",
+    "time": "19:00",
+    "duration": "2 hours",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "23",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Ismoil Abdullayev",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-10",
+    "time": "6:00",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "24",
+    "title": "Gym at Merci Danse",
+    "sportType": "Gym",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Oysha Akbarova",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-27",
+    "time": "16:45",
+    "duration": "2 hours",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "25",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulloh Abdurazzoqov",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-09-16",
+    "time": "11:00",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "26",
+    "title": "Yoga at Strong Gym",
+    "sportType": "Yoga",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Mubina Abdurahmanova",
+      "Dilnoza Abduvohidova",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-30",
+    "time": "18:45",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "27",
+    "title": "Swimming at Yoga Space",
+    "sportType": "Swimming",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-28",
+    "time": "15:45",
+    "duration": "75 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "28",
+    "title": "Running at Strong Gym",
+    "sportType": "Running",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Sirojiddin Abdullayev",
+      "Rustambek Abdullayev",
+      "Abror Abdurashidov",
+      "Maftuna Abdukhakimova",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-09-15",
+    "time": "6:15",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "29",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-08-28",
+    "time": "11:45",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "30",
+    "title": "Running at Befit Pro",
+    "sportType": "Running",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Asilbek Adilov",
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-14",
+    "time": "17:00",
+    "duration": "60 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "31",
+    "title": "Basketball at Chekhov Light Sport Club",
+    "sportType": "Basketball",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 9,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Saidolimxon Akmalxonov",
+      "Mubina Abdurahmanova",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-07",
+    "time": "13:30",
+    "duration": "90 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "32",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-03",
+    "time": "15:00",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "33",
+    "title": "Football at Merci Danse",
+    "sportType": "Football",
+    "host": "Aziz Abduqodirov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 10,
+    "participants": [
+      "Aziz Abduqodirov",
+      "Abdulloh Abdurazzoqov",
+      "Abdusalim Abdukarimov",
+      "Abdurahmon Abduhamidov",
+      "Saidolimxon Akmalxonov",
+      "Dilnoza Abduvohidova",
+      "Abubakr Abduraximov",
+      "Abdulaziz Ahmedov",
+      "Abdujalil Abdumajidov",
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-09-17",
+    "time": "19:45",
+    "duration": "90 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "34",
+    "title": "Gym at Merci Danse",
+    "sportType": "Gym",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-28",
+    "time": "14:15",
+    "duration": "2 hours",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "35",
+    "title": "Football at Uzbegym Fitness Centre",
+    "sportType": "Football",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abror Abdurashidov",
+      "Shukrullo Abdulkhakimov",
+      "Dilnoza Abduvohidova",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-08-27",
+    "time": "16:45",
+    "duration": "90 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "36",
+    "title": "Running at EcoPark, Tashkent",
+    "sportType": "Running",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 4,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Abubakr Abduraximov",
+      "Abdusalim Abdukarimov",
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-09-12",
+    "time": "15:45",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "37",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-10",
+    "time": "13:45",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "38",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-06",
+    "time": "12:30",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "39",
+    "title": "Tennis at Football Field",
+    "sportType": "Tennis",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulloh Abdurazzoqov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-17",
+    "time": "9:30",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Casual rallying, nothing too serious."
+  },
+  {
+    "id": "40",
+    "title": "Football at Yoga Space",
+    "sportType": "Football",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 5,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Asilbek Adilov",
+      "Xonazimxon A'zamova",
+      "Abdujalil Abdumajidov",
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-08-29",
+    "time": "15:45",
+    "duration": "90 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "41",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-27",
+    "time": "15:30",
+    "duration": "90 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "42",
+    "title": "Tennis at Uzbegym Fitness Centre",
+    "sportType": "Tennis",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-08-31",
+    "time": "20:15",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Looking for a solid opponent for practice."
+  },
+  {
+    "id": "43",
+    "title": "Football at Platinum Gold Star",
+    "sportType": "Football",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 4,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Shukrullo Abdulkhakimov",
+      "Hojiakbar Abdug'offorov",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-04",
+    "time": "14:15",
+    "duration": "90 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "44",
+    "title": "Basketball at Lady Only Fitness Studio",
+    "sportType": "Basketball",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 9,
+    "participantsRegistered": 7,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Muhammadamin Abdullayev",
+      "Dilnoza Ahmadova",
+      "Abubakr Abduraximov",
+      "Nursaid Akbarov",
+      "Dilnoza Abduvohidova",
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-09-26",
+    "time": "19:15",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "45",
+    "title": "Running at Chekhov Light Sport Club",
+    "sportType": "Running",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-08-28",
+    "time": "10:45",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "46",
+    "title": "Football at Ozonefc Darhan",
+    "sportType": "Football",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 7,
+    "participants": [
+      "Nursaid Akbarov",
+      "Hojiakbar Abdug'offorov",
+      "Muhabbatxon Abdurahimova",
+      "Abdulaziz Ahmedov",
+      "Muhammadrizo Abduraimov",
+      "Saidolimxon Akmalxonov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-15",
+    "time": "18:00",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "47",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Dilnoza Abduvohidova",
+      "Rustambek Abdullayev",
+      "Abdulloh Abdurazzoqov",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-07",
+    "time": "20:45",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "48",
+    "title": "Football at EcoPark, Tashkent",
+    "sportType": "Football",
+    "host": "Abdujalil Abdumajidov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-08-28",
+    "time": "11:45",
+    "duration": "90 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "49",
+    "title": "Football at Befit Pro",
+    "sportType": "Football",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 3,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Aziz Abduqodirov",
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-28",
+    "time": "15:00",
+    "duration": "90 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "50",
+    "title": "Cycling at Befit Pro",
+    "sportType": "Cycling",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-02",
+    "time": "17:00",
+    "duration": "60 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Pushing uphill and enjoying the ride down — come along."
+  },
+  {
+    "id": "51",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-20",
+    "time": "8:30",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "52",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-08",
+    "time": "10:30",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "53",
+    "title": "Swimming at Buka Fit",
+    "sportType": "Swimming",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-08-31",
+    "time": "17:45",
+    "duration": "75 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "54",
+    "title": "Running at Yoga Space",
+    "sportType": "Running",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 8,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-23",
+    "time": "10:45",
+    "duration": "60 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "55",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Mubina Akbarova",
+      "Abdulloh Abdurazzoqov",
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-23",
+    "time": "11:45",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "56",
+    "title": "Cycling at Lady Only Fitness Studio",
+    "sportType": "Cycling",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Hojiakbar Abdugafforov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-10",
+    "time": "10:45",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Casual evening ride, nothing too intense."
+  },
+  {
+    "id": "57",
+    "title": "Swimming at Platinum Gold Star",
+    "sportType": "Swimming",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Asilbek Adilov",
+      "Dilnoza Ahmadova",
+      "Rustambek Abdullayev",
+      "Saidolimxon Akmalxonov",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-08-28",
+    "time": "17:30",
+    "duration": "75 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Training for endurance, join me if you can handle long sets."
+  },
+  {
+    "id": "58",
+    "title": "Running at Tashkent City Park",
+    "sportType": "Running",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Muhammadrizo Abduraimov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-20",
+    "time": "19:45",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "59",
+    "title": "Running at Football Field",
+    "sportType": "Running",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-16",
+    "time": "9:30",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "60",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Hojiakbar Abdugafforov",
+      "Shukrullo Abdulkhakimov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-08",
+    "time": "11:15",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "61",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 12,
+    "participantsRegistered": 3,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Abubakr Abduraximov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-04",
+    "time": "17:00",
+    "duration": "90 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "62",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-08-28",
+    "time": "18:15",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "63",
+    "title": "Running at Ozonefc Darhan",
+    "sportType": "Running",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-29",
+    "time": "15:00",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "64",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Abdusalim Abdukarimov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abdusalim Abdukarimov",
+      "Muhammadamin Abdullayev",
+      "Xonazimxon A'zamova",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-03",
+    "time": "17:00",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "65",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-09",
+    "time": "7:45",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "66",
+    "title": "Yoga at Befit Pro",
+    "sportType": "Yoga",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-13",
+    "time": "13:15",
+    "duration": "60 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "67",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-29",
+    "time": "9:00",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "68",
+    "title": "Basketball at EcoPark, Tashkent",
+    "sportType": "Basketball",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 7,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Abdulaziz Ahmedov",
+      "Maftuna Abdukhakimova",
+      "Rustambek Abdullayev",
+      "Muhammadrizo Abduraimov",
+      "Dilnoza Ahmadova",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-09-07",
+    "time": "7:00",
+    "duration": "90 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "69",
+    "title": "Running at Ozonefc Darhan",
+    "sportType": "Running",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 2,
+    "participants": [
+      "Oysha Akbarova",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-08",
+    "time": "21:30",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "70",
+    "title": "Running at Yoga Space",
+    "sportType": "Running",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-14",
+    "time": "6:45",
+    "duration": "60 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "71",
+    "title": "Gym at Buka Fit",
+    "sportType": "Gym",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-08-27",
+    "time": "17:15",
+    "duration": "2 hours",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "72",
+    "title": "Football at Space Fitness",
+    "sportType": "Football",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 12,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Muhammadamin Abdullayev",
+      "Mubina Abdurahmanova",
+      "Hojiakbar Abdugafforov",
+      "Muhammadrizo Abduraimov",
+      "Abdusalim Abdukarimov",
+      "Shukrullo Abdulkhakimov",
+      "Sirojiddin Abdullayev",
+      "Ismoil Abdullayev",
+      "Humoyun Abduhalilov",
+      "Abubakr Abduraximov",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-26",
+    "time": "19:45",
+    "duration": "90 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "73",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Abdusalim Abdukarimov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdusalim Abdukarimov",
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-28",
+    "time": "7:15",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "74",
+    "title": "Swimming at Yoga Space",
+    "sportType": "Swimming",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-05",
+    "time": "14:30",
+    "duration": "75 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Training for endurance, join me if you can handle long sets."
+  },
+  {
+    "id": "75",
+    "title": "Football at Merci Danse",
+    "sportType": "Football",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 10,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Aziz Abduqodirov",
+      "Nursaid Akbarov",
+      "Fazliddin Abduholiqov",
+      "Abubakr Abduraximov",
+      "Muxammadjon Abduvohidov",
+      "Oysha Akbarova",
+      "Mubina Akbarova",
+      "Muhammadrizo Abduraimov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-19",
+    "time": "19:00",
+    "duration": "90 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "76",
+    "title": "Running at Uzbegym Fitness Centre",
+    "sportType": "Running",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Abdulaziz Ahmedov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-27",
+    "time": "19:45",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "77",
+    "title": "Running at Strong Gym",
+    "sportType": "Running",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 7,
+    "participantsRegistered": 6,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Nursaid Akbarov",
+      "Dilnoza Ahmadova",
+      "Ismoil Abdullayev",
+      "Abubakr Abduraximov",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-29",
+    "time": "17:45",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "78",
+    "title": "Swimming at Space Fitness",
+    "sportType": "Swimming",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-06",
+    "time": "10:15",
+    "duration": "75 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Relaxed swim, just keeping body moving."
+  },
+  {
+    "id": "79",
+    "title": "Football at EcoPark, Tashkent",
+    "sportType": "Football",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Rustambek Abdullayev",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-21",
+    "time": "8:30",
+    "duration": "90 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "80",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Abror Abdurashidov",
+      "Oysha Akbarova",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-02",
+    "time": "20:00",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "81",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abror Abdurashidov",
+      "Mubina Akbarova",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-28",
+    "time": "15:15",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "82",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-12",
+    "time": "21:30",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "83",
+    "title": "Football at Platinum Gold Star",
+    "sportType": "Football",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 7,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Abdujalil Abdumajidov",
+      "Humoyun Abduhalilov",
+      "Mubina Abdurahmanova",
+      "Dilnoza Abduvohidova",
+      "Sirojiddin Abdullayev",
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-08-31",
+    "time": "17:45",
+    "duration": "90 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "84",
+    "title": "Basketball at Lady Only Fitness Studio",
+    "sportType": "Basketball",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 2,
+    "participants": [
+      "Mubina Akbarova",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-04",
+    "time": "11:45",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Pick-up game, looking for fast players."
+  },
+  {
+    "id": "85",
+    "title": "Cycling at Lady Only Fitness Studio",
+    "sportType": "Cycling",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-05",
+    "time": "7:45",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Fast-paced cycling, bring water and energy."
+  },
+  {
+    "id": "86",
+    "title": "Football at Ozonefc Darhan",
+    "sportType": "Football",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 6,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Aziz Abduqodirov",
+      "Saidolimxon Akmalxonov",
+      "Fazliddin Abduholiqov",
+      "Sirojiddin Abdullayev",
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-09-06",
+    "time": "19:00",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "87",
+    "title": "Tennis at Football Field",
+    "sportType": "Tennis",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-08",
+    "time": "6:00",
+    "duration": "60 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Casual rallying, nothing too serious."
+  },
+  {
+    "id": "88",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 4,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Muhabbatxon Abdurahimova",
+      "Dilnoza Abduvohidova",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-26",
+    "time": "18:30",
+    "duration": "90 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "89",
+    "title": "Other at Yoga Space",
+    "sportType": "Other",
+    "host": "Abdusalim Abdukarimov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdusalim Abdukarimov",
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-08-27",
+    "time": "17:45",
+    "duration": "60 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Open to anyone who wants to move."
+  },
+  {
+    "id": "90",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Mubina Akbarova",
+      "Nursaid Akbarov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-08-29",
+    "time": "18:00",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "91",
+    "title": "Basketball at Space Fitness",
+    "sportType": "Basketball",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 8,
+    "participantsRegistered": 5,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Aziz Abduqodirov",
+      "Oysha Akbarova",
+      "Abdulaziz Ahmedov",
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-09-08",
+    "time": "11:15",
+    "duration": "90 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Pick-up game, looking for fast players."
+  },
+  {
+    "id": "92",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-10",
+    "time": "19:00",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "93",
+    "title": "Swimming at Yoga Space",
+    "sportType": "Swimming",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Oysha Akbarova",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-23",
+    "time": "19:15",
+    "duration": "75 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "94",
+    "title": "Running at Uzbegym Fitness Centre",
+    "sportType": "Running",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Mubina Akbarova",
+      "Fazliddin Abduholiqov",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-06",
+    "time": "21:00",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "95",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Rustambek Abdullayev",
+      "Hojiakbar Abdug'offorov"
+    ],
+    "date": "2025-09-21",
+    "time": "19:15",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "96",
+    "title": "Running at Ozonefc Darhan",
+    "sportType": "Running",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Rustambek Abdullayev",
+      "Hojiakbar Abdug'offorov",
+      "Shukrullo Abdulkhakimov",
+      "Ismoil Abdullayev",
+      "Abdulloh Abdurazzoqov"
+    ],
+    "date": "2025-09-25",
+    "time": "20:15",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "97",
+    "title": "Swimming at Space Fitness",
+    "sportType": "Swimming",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Mubina Abdurahmanova",
+      "Saidolimxon Akmalxonov",
+      "Nursaid Akbarov",
+      "Abubakr Abduraximov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-29",
+    "time": "10:15",
+    "duration": "75 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Training for endurance, join me if you can handle long sets."
+  },
+  {
+    "id": "98",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abror Abdurashidov",
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-09",
+    "time": "12:45",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "99",
+    "title": "Running at EcoPark, Tashkent",
+    "sportType": "Running",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-03",
+    "time": "6:15",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "100",
+    "title": "Yoga at EcoPark, Tashkent",
+    "sportType": "Yoga",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Ismoil Abdullayev",
+      "Fazliddin Abduholiqov",
+      "Abdujalil Abdumajidov",
+      "Mubina Abdurahmanova",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-11",
+    "time": "18:00",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "101",
+    "title": "Swimming at Football Field",
+    "sportType": "Swimming",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-09-25",
+    "time": "6:45",
+    "duration": "75 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "102",
+    "title": "Football at Buka Fit",
+    "sportType": "Football",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-29",
+    "time": "7:45",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "103",
+    "title": "Gym at Ozonefc Darhan",
+    "sportType": "Gym",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdulloh Abdurazzoqov"
+    ],
+    "date": "2025-09-30",
+    "time": "12:00",
+    "duration": "2 hours",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "104",
+    "title": "Football at Ozonefc Darhan",
+    "sportType": "Football",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 12,
+    "participantsRegistered": 10,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Hojiakbar Abdugafforov",
+      "AHMADXO'JA Abrorhajaev",
+      "Abdusalim Abdukarimov",
+      "Humoyun Abduhalilov",
+      "Abror Abdurashidov",
+      "Sirojiddin Abdullayev",
+      "Abdulaziz Ahmedov",
+      "Muhammadrizo Abduraimov",
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-29",
+    "time": "17:15",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "105",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Abror Abdurashidov",
+      "Abdulloh Abdurazzoqov",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-26",
+    "time": "6:15",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "106",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Shukrullo Abdulkhakimov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 7,
+    "participants": [
+      "Shukrullo Abdulkhakimov",
+      "Muxammadjon Abduvohidov",
+      "Aziz Abduqodirov",
+      "Mubina Akbarova",
+      "Abdusalim Abdukarimov",
+      "Asilbek Adilov",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-05",
+    "time": "20:00",
+    "duration": "90 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "107",
+    "title": "Running at Tashkent City Park",
+    "sportType": "Running",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 8,
+    "participantsRegistered": 5,
+    "participants": [
+      "Hojiakbar Abdugafforov",
+      "Maftuna Abdukhakimova",
+      "Xonazimxon A'zamova",
+      "Hojiakbar Abdugafforov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-16",
+    "time": "20:45",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "108",
+    "title": "Cycling at Football Field",
+    "sportType": "Cycling",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 8,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abdurahmon Abduhamidov",
+      "Humoyun Abduhalilov",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-30",
+    "time": "13:30",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Fast-paced cycling, bring water and energy."
+  },
+  {
+    "id": "109",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 8,
+    "participants": [
+      "Mubina Akbarova",
+      "Abdulloh Abdurazzoqov",
+      "Mubina Akbarova",
+      "Xonazimxon A'zamova",
+      "Dilnoza Abduvohidova",
+      "Abror Abdurashidov",
+      "Saidolimxon Akmalxonov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-29",
+    "time": "7:45",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "110",
+    "title": "Running at Lady Only Fitness Studio",
+    "sportType": "Running",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-06",
+    "time": "9:15",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "111",
+    "title": "Gym at Buka Fit",
+    "sportType": "Gym",
+    "host": "Abdusalim Abdukarimov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abdusalim Abdukarimov",
+      "Abubakr Abduraximov",
+      "Abdujalil Abdumajidov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-22",
+    "time": "6:15",
+    "duration": "2 hours",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "112",
+    "title": "Swimming at Tashkent City Park",
+    "sportType": "Swimming",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-26",
+    "time": "18:15",
+    "duration": "75 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "113",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Asilbek Adilov",
+      "Mubina Akbarova",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-04",
+    "time": "13:45",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "114",
+    "title": "Basketball at Befit Pro",
+    "sportType": "Basketball",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdulloh Abdurazzoqov"
+    ],
+    "date": "2025-09-25",
+    "time": "17:00",
+    "duration": "90 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "115",
+    "title": "Gym at Lady Only Fitness Studio",
+    "sportType": "Gym",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-30",
+    "time": "14:15",
+    "duration": "2 hours",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "116",
+    "title": "Running at Football Field",
+    "sportType": "Running",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 8,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-04",
+    "time": "8:00",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "117",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-26",
+    "time": "18:00",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "118",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Humoyun Abduhalilov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-12",
+    "time": "21:15",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "119",
+    "title": "Yoga at Ozonefc Darhan",
+    "sportType": "Yoga",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 1,
+    "participants": [
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-29",
+    "time": "12:00",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "120",
+    "title": "Gym at Yoga Space",
+    "sportType": "Gym",
+    "host": "Abdujalil Abdumajidov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdujalil Abdumajidov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-08-28",
+    "time": "9:00",
+    "duration": "2 hours",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "121",
+    "title": "Other at Befit Pro",
+    "sportType": "Other",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Abubakr Abduraximov",
+      "Shukrullo Abdulkhakimov"
+    ],
+    "date": "2025-09-02",
+    "time": "14:15",
+    "duration": "60 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Open to anyone who wants to move."
+  },
+  {
+    "id": "122",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Mubina Akbarova",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-05",
+    "time": "8:30",
+    "duration": "90 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "123",
+    "title": "Other at Merci Danse",
+    "sportType": "Other",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Mubina Abdurahmanova",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-27",
+    "time": "6:45",
+    "duration": "60 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Just something different today."
+  },
+  {
+    "id": "124",
+    "title": "Football at Lady Only Fitness Studio",
+    "sportType": "Football",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 12,
+    "participants": [
+      "Dilnoza Abduvohidova",
+      "Rustambek Abdullayev",
+      "Asilbek Adilov",
+      "Abror Abdurashidov",
+      "Saidolimxon Akmalxonov",
+      "Dilnoza Ahmadova",
+      "Xonazimxon A'zamova",
+      "Abdusalim Abdukarimov",
+      "AHMADXO'JA Abrorhajaev",
+      "Abdulloh Abdurazzoqov",
+      "Nursaid Akbarov",
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-16",
+    "time": "12:45",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "125",
+    "title": "Yoga at Lady Only Fitness Studio",
+    "sportType": "Yoga",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Hojiakbar Abdug'offorov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-01",
+    "time": "8:15",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "126",
+    "title": "Football at Tashkent City Park",
+    "sportType": "Football",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 12,
+    "participantsRegistered": 6,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Asilbek Adilov",
+      "Abdujalil Abdumajidov",
+      "Rustambek Abdullayev",
+      "Muhammadamin Abdullayev",
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-01",
+    "time": "8:15",
+    "duration": "90 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "127",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-04",
+    "time": "17:30",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "128",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abdulloh Abdurazzoqov",
+      "Muhammadrizo Abduraimov",
+      "Abdujalil Abdumajidov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-18",
+    "time": "7:15",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "129",
+    "title": "Running at Platinum Gold Star",
+    "sportType": "Running",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 5,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Abdujalil Abdumajidov",
+      "Shukrullo Abdulkhakimov",
+      "Asilbek Adilov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-17",
+    "time": "10:00",
+    "duration": "60 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "130",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-12",
+    "time": "18:00",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "131",
+    "title": "Football at Strong Gym",
+    "sportType": "Football",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 5,
+    "participants": [
+      "Asilbek Adilov",
+      "Ismoil Abdullayev",
+      "Fazliddin Abduholiqov",
+      "Abdurahmon Abduhamidov",
+      "Nursaid Akbarov"
+    ],
+    "date": "2025-09-07",
+    "time": "18:00",
+    "duration": "90 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "132",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-15",
+    "time": "11:45",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "133",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-10",
+    "time": "12:30",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "134",
+    "title": "Football at Ozonefc Darhan",
+    "sportType": "Football",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 12,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Nursaid Akbarov",
+      "Abubakr Abduraximov",
+      "Mubina Abdurahmanova",
+      "Mubina Akbarova",
+      "Maftuna Abdukhakimova",
+      "Abdujalil Abdumajidov",
+      "Hojiakbar Abdug'offorov",
+      "Abdulloh Abdurazzoqov",
+      "AHMADXO'JA Abrorhajaev",
+      "Humoyun Abduhalilov",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-25",
+    "time": "8:15",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "135",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-22",
+    "time": "14:00",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "136",
+    "title": "Yoga at Strong Gym",
+    "sportType": "Yoga",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 4,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Abdujalil Abdumajidov",
+      "Abdurahmon Abduhamidov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-08-27",
+    "time": "6:30",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "137",
+    "title": "Football at Chekhov Light Sport Club",
+    "sportType": "Football",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 11,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Abubakr Abduraximov",
+      "Asilbek Adilov",
+      "Hojiakbar Abdugafforov",
+      "Ismoil Abdullayev",
+      "Muxammadjon Abduvohidov",
+      "Humoyun Abduhalilov",
+      "Fazliddin Abduholiqov",
+      "AHMADXO'JA Abrorhajaev",
+      "Saidolimxon Akmalxonov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-28",
+    "time": "11:00",
+    "duration": "90 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "138",
+    "title": "Tennis at Chekhov Light Sport Club",
+    "sportType": "Tennis",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-14",
+    "time": "12:30",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Looking for a solid opponent for practice."
+  },
+  {
+    "id": "139",
+    "title": "Running at Uzbegym Fitness Centre",
+    "sportType": "Running",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 8,
+    "participantsRegistered": 7,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev",
+      "Mubina Abdurahmanova",
+      "Shukrullo Abdulkhakimov",
+      "Abdurahmon Abduhamidov",
+      "Abdulaziz Ahmedov",
+      "Abdujalil Abdumajidov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-13",
+    "time": "18:00",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "140",
+    "title": "Running at Chekhov Light Sport Club",
+    "sportType": "Running",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdurahmon Abduhamidov",
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-09-19",
+    "time": "12:15",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "141",
+    "title": "Gym at Yoga Space",
+    "sportType": "Gym",
+    "host": "Abdulloh Abdurazzoqov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abdulloh Abdurazzoqov",
+      "Ismoil Abdullayev",
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-22",
+    "time": "16:00",
+    "duration": "2 hours",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "142",
+    "title": "Gym at Befit Pro",
+    "sportType": "Gym",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Muhammadamin Abdullayev",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-08-29",
+    "time": "6:15",
+    "duration": "2 hours",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "143",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-06",
+    "time": "7:30",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "144",
+    "title": "Running at Football Field",
+    "sportType": "Running",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 8,
+    "participantsRegistered": 4,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Rustambek Abdullayev",
+      "Aziz Abduqodirov",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-22",
+    "time": "14:30",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "145",
+    "title": "Basketball at Ozonefc Darhan",
+    "sportType": "Basketball",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 9,
+    "participantsRegistered": 2,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-13",
+    "time": "20:15",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "146",
+    "title": "Running at Merci Danse",
+    "sportType": "Running",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 7,
+    "participantsRegistered": 3,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Muxammadjon Abduvohidov",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-21",
+    "time": "7:15",
+    "duration": "60 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "147",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-25",
+    "time": "20:30",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "148",
+    "title": "Running at EcoPark, Tashkent",
+    "sportType": "Running",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-26",
+    "time": "20:45",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "149",
+    "title": "Running at Uzbegym Fitness Centre",
+    "sportType": "Running",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 7,
+    "participantsRegistered": 5,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Ismoil Abdullayev",
+      "Mubina Akbarova",
+      "Abdujalil Abdumajidov",
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-26",
+    "time": "14:15",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "150",
+    "title": "Football at Buka Fit",
+    "sportType": "Football",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 10,
+    "participantsRegistered": 1,
+    "participants": [
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-16",
+    "time": "9:30",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "151",
+    "title": "Running at Tashkent City Park",
+    "sportType": "Running",
+    "host": "Shukrullo Abdulkhakimov",
+    "participantsNeeded": 7,
+    "participantsRegistered": 4,
+    "participants": [
+      "Shukrullo Abdulkhakimov",
+      "Muhammadrizo Abduraimov",
+      "Maftuna Abdukhakimova",
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-09-02",
+    "time": "14:00",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "152",
+    "title": "Football at Lady Only Fitness Studio",
+    "sportType": "Football",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 11,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Hojiakbar Abdug'offorov",
+      "Humoyun Abduhalilov",
+      "Rustambek Abdullayev",
+      "Shukrullo Abdulkhakimov",
+      "Xonazimxon A'zamova",
+      "Muhammadamin Abdullayev",
+      "Maftuna Abdukhakimova",
+      "Abror Abdurashidov",
+      "Abdulloh Abdurazzoqov",
+      "Saidolimxon Akmalxonov"
+    ],
+    "date": "2025-09-26",
+    "time": "9:30",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "153",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-16",
+    "time": "6:30",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "154",
+    "title": "Running at Football Field",
+    "sportType": "Running",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 6,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Abror Abdurashidov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-06",
+    "time": "20:15",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "155",
+    "title": "Swimming at EcoPark, Tashkent",
+    "sportType": "Swimming",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 3,
+    "participants": [
+      "Nursaid Akbarov",
+      "Mubina Akbarova",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-10",
+    "time": "7:45",
+    "duration": "75 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Training for endurance, join me if you can handle long sets."
+  },
+  {
+    "id": "156",
+    "title": "Yoga at Strong Gym",
+    "sportType": "Yoga",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-20",
+    "time": "6:45",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "157",
+    "title": "Gym at Befit Pro",
+    "sportType": "Gym",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Dilnoza Abduvohidova",
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-15",
+    "time": "11:00",
+    "duration": "2 hours",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "158",
+    "title": "Gym at Merci Danse",
+    "sportType": "Gym",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Nursaid Akbarov",
+      "Muhammadamin Abdullayev",
+      "Xonazimxon A'zamova",
+      "Aziz Abduqodirov"
+    ],
+    "date": "2025-09-28",
+    "time": "21:15",
+    "duration": "2 hours",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "159",
+    "title": "Gym at Ozonefc Darhan",
+    "sportType": "Gym",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-24",
+    "time": "17:15",
+    "duration": "2 hours",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "160",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-03",
+    "time": "19:00",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "161",
+    "title": "Gym at Merci Danse",
+    "sportType": "Gym",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-20",
+    "time": "8:15",
+    "duration": "2 hours",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "162",
+    "title": "Tennis at Befit Pro",
+    "sportType": "Tennis",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-14",
+    "time": "7:30",
+    "duration": "60 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Casual rallying, nothing too serious."
+  },
+  {
+    "id": "163",
+    "title": "Cycling at Chekhov Light Sport Club",
+    "sportType": "Cycling",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Asilbek Adilov"
+    ],
+    "date": "2025-08-30",
+    "time": "19:00",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Pushing uphill and enjoying the ride down — come along."
+  },
+  {
+    "id": "164",
+    "title": "Running at Platinum Gold Star",
+    "sportType": "Running",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-02",
+    "time": "14:00",
+    "duration": "60 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "165",
+    "title": "Gym at Ozonefc Darhan",
+    "sportType": "Gym",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-10",
+    "time": "6:45",
+    "duration": "2 hours",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "166",
+    "title": "Football at Befit Pro",
+    "sportType": "Football",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 2,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Muxammadjon Abduvohidov"
+    ],
+    "date": "2025-09-09",
+    "time": "9:00",
+    "duration": "90 minutes",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "167",
+    "title": "Yoga at Chekhov Light Sport Club",
+    "sportType": "Yoga",
+    "host": "Abdusalim Abdukarimov",
+    "participantsNeeded": 8,
+    "participantsRegistered": 8,
+    "participants": [
+      "Abdusalim Abdukarimov",
+      "Mubina Akbarova",
+      "Hojiakbar Abdugafforov",
+      "Shukrullo Abdulkhakimov",
+      "Abror Abdurashidov",
+      "Fazliddin Abduholiqov",
+      "Dilnoza Abduvohidova",
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-09-29",
+    "time": "21:15",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "168",
+    "title": "Running at Chekhov Light Sport Club",
+    "sportType": "Running",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Ismoil Abdullayev",
+      "Abdujalil Abdumajidov",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-09-18",
+    "time": "15:15",
+    "duration": "60 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "169",
+    "title": "Gym at Buka Fit",
+    "sportType": "Gym",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-15",
+    "time": "10:15",
+    "duration": "2 hours",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "170",
+    "title": "Swimming at Chekhov Light Sport Club",
+    "sportType": "Swimming",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Mubina Akbarova",
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-09-04",
+    "time": "21:00",
+    "duration": "75 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "171",
+    "title": "Gym at Space Fitness",
+    "sportType": "Gym",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-07",
+    "time": "7:30",
+    "duration": "2 hours",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "172",
+    "title": "Running at Lady Only Fitness Studio",
+    "sportType": "Running",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 7,
+    "participantsRegistered": 2,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Shukrullo Abdulkhakimov"
+    ],
+    "date": "2025-08-29",
+    "time": "6:00",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "173",
+    "title": "Football at Platinum Gold Star",
+    "sportType": "Football",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 10,
+    "participantsRegistered": 8,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev",
+      "Abdusalim Abdukarimov",
+      "Asilbek Adilov",
+      "Abubakr Abduraximov",
+      "Shukrullo Abdulkhakimov",
+      "Muhammadamin Abdullayev",
+      "Mubina Abdurahmanova",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-01",
+    "time": "13:45",
+    "duration": "90 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "174",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Humoyun Abduhalilov",
+      "Shukrullo Abdulkhakimov"
+    ],
+    "date": "2025-09-10",
+    "time": "17:15",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "175",
+    "title": "Running at Platinum Gold Star",
+    "sportType": "Running",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Hojiakbar Abdugafforov"
+    ],
+    "date": "2025-09-15",
+    "time": "8:45",
+    "duration": "60 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "176",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 8,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Sirojiddin Abdullayev",
+      "Abdulloh Abdurazzoqov",
+      "Aziz Abduqodirov",
+      "Mubina Abdurahmanova",
+      "Mubina Akbarova",
+      "Asilbek Adilov",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-02",
+    "time": "21:30",
+    "duration": "90 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "177",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 3,
+    "participants": [
+      "Oysha Akbarova",
+      "Muhabbatxon Abdurahimova",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-25",
+    "time": "8:45",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "178",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Fazliddin Abduholiqov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Fazliddin Abduholiqov",
+      "Abdujalil Abdumajidov",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-08",
+    "time": "17:45",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "179",
+    "title": "Football at Buka Fit",
+    "sportType": "Football",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 12,
+    "participantsRegistered": 7,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Oysha Akbarova",
+      "Shukrullo Abdulkhakimov",
+      "Maftuna Abdukhakimova",
+      "Muhabbatxon Abdurahimova",
+      "Abdulloh Abdurazzoqov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-02",
+    "time": "9:00",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "180",
+    "title": "Yoga at Uzbegym Fitness Centre",
+    "sportType": "Yoga",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 9,
+    "participantsRegistered": 7,
+    "participants": [
+      "Abror Abdurashidov",
+      "Muxammadjon Abduvohidov",
+      "Fazliddin Abduholiqov",
+      "Aziz Abduqodirov",
+      "Mubina Akbarova",
+      "Abubakr Abduraximov",
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-09-05",
+    "time": "19:00",
+    "duration": "60 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "181",
+    "title": "Football at Strong Gym",
+    "sportType": "Football",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 6,
+    "participants": [
+      "Abror Abdurashidov",
+      "Xonazimxon A'zamova",
+      "AHMADXO'JA Abrorhajaev",
+      "Muhammadamin Abdullayev",
+      "Fazliddin Abduholiqov",
+      "Dilnoza Abduvohidova"
+    ],
+    "date": "2025-08-29",
+    "time": "18:45",
+    "duration": "90 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "182",
+    "title": "Gym at Uzbegym Fitness Centre",
+    "sportType": "Gym",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Muhammadrizo Abduraimov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-23",
+    "time": "15:00",
+    "duration": "2 hours",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "183",
+    "title": "Yoga at Buka Fit",
+    "sportType": "Yoga",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abdurahmon Abduhamidov",
+      "Nursaid Akbarov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-18",
+    "time": "15:45",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "184",
+    "title": "Cycling at Football Field",
+    "sportType": "Cycling",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-28",
+    "time": "13:00",
+    "duration": "60 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Pushing uphill and enjoying the ride down — come along."
+  },
+  {
+    "id": "185",
+    "title": "Swimming at Football Field",
+    "sportType": "Swimming",
+    "host": "Muxammadjon Abduvohidov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muxammadjon Abduvohidov",
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-20",
+    "time": "13:45",
+    "duration": "75 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Relaxed swim, just keeping body moving."
+  },
+  {
+    "id": "186",
+    "title": "Gym at Chekhov Light Sport Club",
+    "sportType": "Gym",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-27",
+    "time": "7:15",
+    "duration": "2 hours",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "187",
+    "title": "Football at Lady Only Fitness Studio",
+    "sportType": "Football",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 7,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Dilnoza Abduvohidova",
+      "Maftuna Abdukhakimova",
+      "Abdujalil Abdumajidov",
+      "Mubina Abdurahmanova",
+      "Abdurahmon Abduhamidov",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-08-27",
+    "time": "15:45",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "188",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 3,
+    "participants": [
+      "Hojiakbar Abdugafforov",
+      "Dilnoza Ahmadova",
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-28",
+    "time": "19:00",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "189",
+    "title": "Yoga at Buka Fit",
+    "sportType": "Yoga",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abror Abdurashidov",
+      "Saidolimxon Akmalxonov",
+      "Rustambek Abdullayev",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-25",
+    "time": "10:30",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "190",
+    "title": "Football at Buka Fit",
+    "sportType": "Football",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 10,
+    "participants": [
+      "Nursaid Akbarov",
+      "Dilnoza Abduvohidova",
+      "Maftuna Abdukhakimova",
+      "Shukrullo Abdulkhakimov",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov",
+      "Dilnoza Ahmadova",
+      "Abdusalim Abdukarimov",
+      "Saidolimxon Akmalxonov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-21",
+    "time": "12:30",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "191",
+    "title": "Running at Platinum Gold Star",
+    "sportType": "Running",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 8,
+    "participantsRegistered": 5,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Aziz Abduqodirov",
+      "Mubina Abdurahmanova",
+      "Rustambek Abdullayev",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-04",
+    "time": "9:00",
+    "duration": "60 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Casual jog, but let’s push each other a bit."
+  },
+  {
+    "id": "192",
+    "title": "Football at Yoga Space",
+    "sportType": "Football",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 12,
+    "participantsRegistered": 8,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev",
+      "Oysha Akbarova",
+      "Asilbek Adilov",
+      "Abdulaziz Ahmedov",
+      "Ismoil Abdullayev",
+      "Abdujalil Abdumajidov",
+      "Sirojiddin Abdullayev",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-06",
+    "time": "13:30",
+    "duration": "90 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "193",
+    "title": "Gym at Befit Pro",
+    "sportType": "Gym",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 4,
+    "participantsRegistered": 1,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-08-30",
+    "time": "11:15",
+    "duration": "2 hours",
+    "location": "Befit Pro — Osiyo Street, 1Б, Yunusabad",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "194",
+    "title": "Yoga at Buka Fit",
+    "sportType": "Yoga",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 9,
+    "participantsRegistered": 3,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Abror Abdurashidov",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-12",
+    "time": "16:15",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "195",
+    "title": "Football at Lady Only Fitness Studio",
+    "sportType": "Football",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 9,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Dilnoza Abduvohidova",
+      "Muxammadjon Abduvohidov",
+      "AHMADXO'JA Abrorhajaev",
+      "Abdusalim Abdukarimov",
+      "Asilbek Adilov",
+      "Shukrullo Abdulkhakimov",
+      "Aziz Abduqodirov",
+      "Abubakr Abduraximov"
+    ],
+    "date": "2025-09-15",
+    "time": "6:45",
+    "duration": "90 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "196",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Hojiakbar Abdugafforov",
+      "Mubina Akbarova",
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-09-12",
+    "time": "20:00",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "197",
+    "title": "Football at EcoPark, Tashkent",
+    "sportType": "Football",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 10,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Muhammadamin Abdullayev",
+      "Abdurahmon Abduhamidov",
+      "Dilnoza Ahmadova",
+      "Abdulaziz Ahmedov",
+      "Abdujalil Abdumajidov",
+      "Mubina Abdurahmanova",
+      "Muhabbatxon Abdurahimova",
+      "Aziz Abduqodirov",
+      "Asilbek Adilov"
+    ],
+    "date": "2025-08-31",
+    "time": "19:15",
+    "duration": "90 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "198",
+    "title": "Football at Space Fitness",
+    "sportType": "Football",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 9,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "Fazliddin Abduholiqov",
+      "Saidolimxon Akmalxonov",
+      "Abdulloh Abdurazzoqov",
+      "Muhammadrizo Abduraimov",
+      "Abror Abdurashidov",
+      "Dilnoza Abduvohidova",
+      "Xonazimxon A'zamova",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-05",
+    "time": "9:30",
+    "duration": "90 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "199",
+    "title": "Cycling at Merci Danse",
+    "sportType": "Cycling",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Dilnoza Abduvohidova",
+      "Abubakr Abduraximov",
+      "Maftuna Abdukhakimova",
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-01",
+    "time": "18:15",
+    "duration": "60 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Casual evening ride, nothing too intense."
+  },
+  {
+    "id": "200",
+    "title": "Gym at Tashkent City Park",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 5,
+    "participants": [
+      "Abror Abdurashidov",
+      "Rustambek Abdullayev",
+      "Hojiakbar Abdugafforov",
+      "Xonazimxon A'zamova",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-11",
+    "time": "6:00",
+    "duration": "2 hours",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "201",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Ismoil Abdullayev",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Ismoil Abdullayev",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-08-31",
+    "time": "10:45",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "202",
+    "title": "Gym at Yoga Space",
+    "sportType": "Gym",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Shukrullo Abdulkhakimov"
+    ],
+    "date": "2025-09-15",
+    "time": "15:15",
+    "duration": "2 hours",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "203",
+    "title": "Swimming at Uzbegym Fitness Centre",
+    "sportType": "Swimming",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Abror Abdurashidov",
+      "Abdujalil Abdumajidov",
+      "Muhabbatxon Abdurahimova",
+      "Nursaid Akbarov"
+    ],
+    "date": "2025-09-17",
+    "time": "21:15",
+    "duration": "75 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "Relaxed swim, just keeping body moving."
+  },
+  {
+    "id": "204",
+    "title": "Gym at Tashkent City Park",
+    "sportType": "Gym",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-08-30",
+    "time": "9:45",
+    "duration": "2 hours",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "205",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 2,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Hojiakbar Abdug'offorov"
+    ],
+    "date": "2025-09-03",
+    "time": "20:00",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "206",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Abdurahmon Abduhamidov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abdurahmon Abduhamidov",
+      "Nursaid Akbarov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-28",
+    "time": "18:30",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "207",
+    "title": "Gym at Platinum Gold Star",
+    "sportType": "Gym",
+    "host": "Mubina Akbarova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Akbarova"
+    ],
+    "date": "2025-09-02",
+    "time": "10:15",
+    "duration": "2 hours",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "208",
+    "title": "Football at Buka Fit",
+    "sportType": "Football",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 4,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Xonazimxon A'zamova",
+      "Muhammadrizo Abduraimov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-11",
+    "time": "16:00",
+    "duration": "90 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "209",
+    "title": "Yoga at Tashkent City Park",
+    "sportType": "Yoga",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Muhammadrizo Abduraimov",
+      "Abdulloh Abdurazzoqov",
+      "Hojiakbar Abdug'offorov",
+      "Rustambek Abdullayev",
+      "Muhammadamin Abdullayev"
+    ],
+    "date": "2025-09-21",
+    "time": "7:45",
+    "duration": "60 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "210",
+    "title": "Gym at Yoga Space",
+    "sportType": "Gym",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Dilnoza Ahmadova",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-04",
+    "time": "7:45",
+    "duration": "2 hours",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "211",
+    "title": "Football at Merci Danse",
+    "sportType": "Football",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 5,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Humoyun Abduhalilov",
+      "Oysha Akbarova",
+      "Abdulloh Abdurazzoqov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-21",
+    "time": "18:00",
+    "duration": "90 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "212",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-08-31",
+    "time": "11:30",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "213",
+    "title": "Football at Yoga Space",
+    "sportType": "Football",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 10,
+    "participantsRegistered": 3,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Mubina Abdurahmanova",
+      "Saidolimxon Akmalxonov"
+    ],
+    "date": "2025-09-13",
+    "time": "10:00",
+    "duration": "90 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "214",
+    "title": "Yoga at EcoPark, Tashkent",
+    "sportType": "Yoga",
+    "host": "Abdujalil Abdumajidov",
+    "participantsNeeded": 8,
+    "participantsRegistered": 1,
+    "participants": [
+      "Abdujalil Abdumajidov"
+    ],
+    "date": "2025-08-29",
+    "time": "20:30",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "215",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "AHMADXO'JA Abrorhajaev",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "AHMADXO'JA Abrorhajaev",
+      "Sirojiddin Abdullayev",
+      "Xonazimxon A'zamova",
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-10",
+    "time": "18:45",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "216",
+    "title": "Football at Uzbegym Fitness Centre",
+    "sportType": "Football",
+    "host": "Shukrullo Abdulkhakimov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 9,
+    "participants": [
+      "Shukrullo Abdulkhakimov",
+      "Maftuna Abdukhakimova",
+      "Muhammadamin Abdullayev",
+      "Muhabbatxon Abdurahimova",
+      "Oysha Akbarova",
+      "Mubina Abdurahmanova",
+      "Nursaid Akbarov",
+      "Abdusalim Abdukarimov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-22",
+    "time": "14:15",
+    "duration": "90 minutes",
+    "location": "Uzbegym Fitness Centre — Afrosiyob Street, 41",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "217",
+    "title": "Football at Chekhov Light Sport Club",
+    "sportType": "Football",
+    "host": "Maftuna Abdukhakimova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 7,
+    "participants": [
+      "Maftuna Abdukhakimova",
+      "Hojiakbar Abdug'offorov",
+      "Dilnoza Ahmadova",
+      "Muxammadjon Abduvohidov",
+      "Abror Abdurashidov",
+      "Muhabbatxon Abdurahimova",
+      "Abdusalim Abdukarimov"
+    ],
+    "date": "2025-09-13",
+    "time": "20:30",
+    "duration": "90 minutes",
+    "location": "Chekhov Light Sport Club — Taras Shevchenko Street, 28A",
+    "city": "Tashkent",
+    "description": "90 minutes of football, come ready to play!"
+  },
+  {
+    "id": "218",
+    "title": "Gym at Lady Only Fitness Studio",
+    "sportType": "Gym",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-08",
+    "time": "11:00",
+    "duration": "2 hours",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "219",
+    "title": "Cycling at EcoPark, Tashkent",
+    "sportType": "Cycling",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Mubina Abdurahmanova"
+    ],
+    "date": "2025-09-16",
+    "time": "16:30",
+    "duration": "60 minutes",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Pushing uphill and enjoying the ride down — come along."
+  },
+  {
+    "id": "220",
+    "title": "Football at Platinum Gold Star",
+    "sportType": "Football",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 4,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Muhammadrizo Abduraimov",
+      "Mubina Abdurahmanova",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-09",
+    "time": "14:00",
+    "duration": "90 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "221",
+    "title": "Tennis at Yoga Space",
+    "sportType": "Tennis",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-10",
+    "time": "6:15",
+    "duration": "60 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Looking for a solid opponent for practice."
+  },
+  {
+    "id": "222",
+    "title": "Yoga at Buka Fit",
+    "sportType": "Yoga",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Rustambek Abdullayev"
+    ],
+    "date": "2025-09-03",
+    "time": "20:30",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Slow session focused on breathing and stretching."
+  },
+  {
+    "id": "223",
+    "title": "Cycling at Merci Danse",
+    "sportType": "Cycling",
+    "host": "Aziz Abduqodirov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Aziz Abduqodirov",
+      "Muhammadrizo Abduraimov"
+    ],
+    "date": "2025-09-16",
+    "time": "10:15",
+    "duration": "60 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Pushing uphill and enjoying the ride down — come along."
+  },
+  {
+    "id": "224",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abror Abdurashidov",
+      "Abdurahmon Abduhamidov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-27",
+    "time": "8:30",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "225",
+    "title": "Football at Tashkent City Park",
+    "sportType": "Football",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 5,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Aziz Abduqodirov",
+      "Hojiakbar Abdugafforov",
+      "Abdulaziz Ahmedov",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-17",
+    "time": "8:45",
+    "duration": "90 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "226",
+    "title": "Running at Space Fitness",
+    "sportType": "Running",
+    "host": "Saidolimxon Akmalxonov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Saidolimxon Akmalxonov",
+      "Ismoil Abdullayev",
+      "Abror Abdurashidov",
+      "Abdurahmon Abduhamidov"
+    ],
+    "date": "2025-09-29",
+    "time": "18:00",
+    "duration": "60 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "227",
+    "title": "Running at Strong Gym",
+    "sportType": "Running",
+    "host": "Sirojiddin Abdullayev",
+    "participantsNeeded": 5,
+    "participantsRegistered": 5,
+    "participants": [
+      "Sirojiddin Abdullayev",
+      "Abdurahmon Abduhamidov",
+      "Abdulloh Abdurazzoqov",
+      "Muhammadrizo Abduraimov",
+      "Shukrullo Abdulkhakimov"
+    ],
+    "date": "2025-09-02",
+    "time": "18:30",
+    "duration": "60 minutes",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "228",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Mubina Abdurahmanova",
+    "participantsNeeded": 8,
+    "participantsRegistered": 6,
+    "participants": [
+      "Mubina Abdurahmanova",
+      "Rustambek Abdullayev",
+      "Abror Abdurashidov",
+      "Mubina Akbarova",
+      "Ismoil Abdullayev",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-29",
+    "time": "6:15",
+    "duration": "60 minutes",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "229",
+    "title": "Swimming at Yoga Space",
+    "sportType": "Swimming",
+    "host": "Dilnoza Ahmadova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Dilnoza Ahmadova"
+    ],
+    "date": "2025-09-20",
+    "time": "12:30",
+    "duration": "75 minutes",
+    "location": "Yoga Space — Kichik Beshyogoch street, 56",
+    "city": "Tashkent",
+    "description": "Relaxed swim, just keeping body moving."
+  },
+  {
+    "id": "230",
+    "title": "Football at Ozonefc Darhan",
+    "sportType": "Football",
+    "host": "Humoyun Abduhalilov",
+    "participantsNeeded": 10,
+    "participantsRegistered": 6,
+    "participants": [
+      "Humoyun Abduhalilov",
+      "Muxammadjon Abduvohidov",
+      "Ismoil Abdullayev",
+      "Mubina Akbarova",
+      "Muhammadamin Abdullayev",
+      "Sirojiddin Abdullayev"
+    ],
+    "date": "2025-09-13",
+    "time": "14:00",
+    "duration": "90 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "231",
+    "title": "Yoga at Space Fitness",
+    "sportType": "Yoga",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-15",
+    "time": "11:00",
+    "duration": "60 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "I’ll guide us through some calming poses — good vibes only."
+  },
+  {
+    "id": "232",
+    "title": "Running at Merci Danse",
+    "sportType": "Running",
+    "host": "Abdulaziz Ahmedov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abdulaziz Ahmedov",
+      "Ismoil Abdullayev"
+    ],
+    "date": "2025-09-26",
+    "time": "6:45",
+    "duration": "60 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "I’ll be keeping a steady pace — join if you’re up for it."
+  },
+  {
+    "id": "233",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Abror Abdurashidov",
+      "Muhabbatxon Abdurahimova"
+    ],
+    "date": "2025-09-28",
+    "time": "20:45",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Serious lifting only. No excuses, no small talk."
+  },
+  {
+    "id": "234",
+    "title": "Basketball at Merci Danse",
+    "sportType": "Basketball",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 6,
+    "participantsRegistered": 6,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Abubakr Abduraximov",
+      "Abdulaziz Ahmedov",
+      "Hojiakbar Abdug'offorov",
+      "Asilbek Adilov",
+      "Abdulloh Abdurazzoqov"
+    ],
+    "date": "2025-09-08",
+    "time": "6:45",
+    "duration": "90 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "235",
+    "title": "Football at Tashkent City Park",
+    "sportType": "Football",
+    "host": "Oysha Akbarova",
+    "participantsNeeded": 12,
+    "participantsRegistered": 11,
+    "participants": [
+      "Oysha Akbarova",
+      "Ismoil Abdullayev",
+      "Hojiakbar Abdugafforov",
+      "Xonazimxon A'zamova",
+      "Asilbek Adilov",
+      "Abror Abdurashidov",
+      "AHMADXO'JA Abrorhajaev",
+      "Rustambek Abdullayev",
+      "Abubakr Abduraximov",
+      "Abdurahmon Abduhamidov",
+      "Saidolimxon Akmalxonov"
+    ],
+    "date": "2025-09-07",
+    "time": "9:15",
+    "duration": "90 minutes",
+    "location": "Tashkent City Park",
+    "city": "Tashkent",
+    "description": "Bring your boots and energy. Let’s make this match intense."
+  },
+  {
+    "id": "236",
+    "title": "Swimming at Merci Danse",
+    "sportType": "Swimming",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 3,
+    "participantsRegistered": 1,
+    "participants": [
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-08-31",
+    "time": "21:15",
+    "duration": "75 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "237",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Muhammadrizo Abduraimov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhammadrizo Abduraimov",
+      "AHMADXO'JA Abrorhajaev"
+    ],
+    "date": "2025-08-27",
+    "time": "6:45",
+    "duration": "2 hours",
+    "location": "Football Field — Yakkasaray District, Mukimi Mahallah",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "238",
+    "title": "Gym at Strong Gym",
+    "sportType": "Gym",
+    "host": "Muhammadamin Abdullayev",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhammadamin Abdullayev",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-28",
+    "time": "17:45",
+    "duration": "2 hours",
+    "location": "Strong Gym — Babur Street, 87B/1",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "239",
+    "title": "Other at Ozonefc Darhan",
+    "sportType": "Other",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 5,
+    "participantsRegistered": 1,
+    "participants": [
+      "Nursaid Akbarov"
+    ],
+    "date": "2025-09-22",
+    "time": "18:00",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Open to anyone who wants to move."
+  },
+  {
+    "id": "240",
+    "title": "Swimming at Space Fitness",
+    "sportType": "Swimming",
+    "host": "Muhabbatxon Abdurahimova",
+    "participantsNeeded": 6,
+    "participantsRegistered": 2,
+    "participants": [
+      "Muhabbatxon Abdurahimova",
+      "Muxammadjon Abduvohidov"
+    ],
+    "date": "2025-09-06",
+    "time": "21:45",
+    "duration": "75 minutes",
+    "location": "Space Fitness — Chilanzar, 3-mavze, 45/1",
+    "city": "Tashkent",
+    "description": "Pool session, let’s keep laps steady."
+  },
+  {
+    "id": "241",
+    "title": "Cycling at Platinum Gold Star",
+    "sportType": "Cycling",
+    "host": "Rustambek Abdullayev",
+    "participantsNeeded": 8,
+    "participantsRegistered": 8,
+    "participants": [
+      "Rustambek Abdullayev",
+      "Mubina Akbarova",
+      "Saidolimxon Akmalxonov",
+      "Muxammadjon Abduvohidov",
+      "Hojiakbar Abdugafforov",
+      "Ismoil Abdullayev",
+      "Fazliddin Abduholiqov",
+      "Maftuna Abdukhakimova"
+    ],
+    "date": "2025-09-21",
+    "time": "10:00",
+    "duration": "60 minutes",
+    "location": "Platinum Gold Star — Shota Rustaveli Street, 53B",
+    "city": "Tashkent",
+    "description": "Fast-paced cycling, bring water and energy."
+  },
+  {
+    "id": "242",
+    "title": "Gym at Football Field",
+    "sportType": "Gym",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 2,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-17",
+    "time": "9:00",
+    "duration": "2 hours",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Let’s crush a solid gym session together."
+  },
+  {
+    "id": "243",
+    "title": "Yoga at Football Field",
+    "sportType": "Yoga",
+    "host": "Abubakr Abduraximov",
+    "participantsNeeded": 9,
+    "participantsRegistered": 9,
+    "participants": [
+      "Abubakr Abduraximov",
+      "Shukrullo Abdulkhakimov",
+      "Abdurahmon Abduhamidov",
+      "Abdulloh Abdurazzoqov",
+      "Aziz Abduqodirov",
+      "Abdulaziz Ahmedov",
+      "Hojiakbar Abdug'offorov",
+      "Ismoil Abdullayev",
+      "Humoyun Abduhalilov"
+    ],
+    "date": "2025-09-29",
+    "time": "17:15",
+    "duration": "60 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  },
+  {
+    "id": "244",
+    "title": "Running at Ozonefc Darhan",
+    "sportType": "Running",
+    "host": "Abror Abdurashidov",
+    "participantsNeeded": 3,
+    "participantsRegistered": 3,
+    "participants": [
+      "Abror Abdurashidov",
+      "Abdurahmon Abduhamidov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-08-31",
+    "time": "19:00",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "245",
+    "title": "Gym at EcoPark, Tashkent",
+    "sportType": "Gym",
+    "host": "Nursaid Akbarov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 2,
+    "participants": [
+      "Nursaid Akbarov",
+      "Abdulaziz Ahmedov"
+    ],
+    "date": "2025-09-19",
+    "time": "7:30",
+    "duration": "2 hours",
+    "location": "EcoPark, Tashkent",
+    "city": "Tashkent",
+    "description": "Focused strength training — join me if you’re ready to work hard."
+  },
+  {
+    "id": "246",
+    "title": "Tennis at Lady Only Fitness Studio",
+    "sportType": "Tennis",
+    "host": "Asilbek Adilov",
+    "participantsNeeded": 2,
+    "participantsRegistered": 1,
+    "participants": [
+      "Asilbek Adilov"
+    ],
+    "date": "2025-09-30",
+    "time": "15:45",
+    "duration": "60 minutes",
+    "location": "Lady Only Fitness Studio — Nukus Street, 27",
+    "city": "Tashkent",
+    "description": "Looking for a solid opponent for practice."
+  },
+  {
+    "id": "247",
+    "title": "Football at Football Field",
+    "sportType": "Football",
+    "host": "Hojiakbar Abdug'offorov",
+    "participantsNeeded": 12,
+    "participantsRegistered": 7,
+    "participants": [
+      "Hojiakbar Abdug'offorov",
+      "Muhammadrizo Abduraimov",
+      "Oysha Akbarova",
+      "Abdurahmon Abduhamidov",
+      "Hojiakbar Abdugafforov",
+      "Ismoil Abdullayev",
+      "Xonazimxon A'zamova"
+    ],
+    "date": "2025-09-07",
+    "time": "16:00",
+    "duration": "90 minutes",
+    "location": "Football Field — Chilanzar District, Katartal Mahallah",
+    "city": "Tashkent",
+    "description": "Looking for passionate players who love team spirit."
+  },
+  {
+    "id": "248",
+    "title": "Basketball at Merci Danse",
+    "sportType": "Basketball",
+    "host": "Dilnoza Abduvohidova",
+    "participantsNeeded": 10,
+    "participantsRegistered": 10,
+    "participants": [
+      "Dilnoza Abduvohidova",
+      "Abdulaziz Ahmedov",
+      "Humoyun Abduhalilov",
+      "Hojiakbar Abdugafforov",
+      "Muhabbatxon Abdurahimova",
+      "Mubina Akbarova",
+      "Muhammadamin Abdullayev",
+      "Xonazimxon A'zamova",
+      "Muxammadjon Abduvohidov",
+      "Fazliddin Abduholiqov"
+    ],
+    "date": "2025-09-04",
+    "time": "14:00",
+    "duration": "90 minutes",
+    "location": "Merci Danse — Katartal, 60а/1",
+    "city": "Tashkent",
+    "description": "Friendly basketball match, join if you love hoops."
+  },
+  {
+    "id": "249",
+    "title": "Running at Buka Fit",
+    "sportType": "Running",
+    "host": "Hojiakbar Abdugafforov",
+    "participantsNeeded": 4,
+    "participantsRegistered": 3,
+    "participants": [
+      "Hojiakbar Abdugafforov",
+      "Abror Abdurashidov",
+      "Oysha Akbarova"
+    ],
+    "date": "2025-09-21",
+    "time": "18:30",
+    "duration": "60 minutes",
+    "location": "Buka Fit — Mirabad Street, 41/6",
+    "city": "Tashkent",
+    "description": "Early morning run. Fresh air and good pace."
+  },
+  {
+    "id": "250",
+    "title": "Yoga at Ozonefc Darhan",
+    "sportType": "Yoga",
+    "host": "Xonazimxon A'zamova",
+    "participantsNeeded": 5,
+    "participantsRegistered": 4,
+    "participants": [
+      "Xonazimxon A'zamova",
+      "Humoyun Abduhalilov",
+      "Saidolimxon Akmalxonov",
+      "Abror Abdurashidov"
+    ],
+    "date": "2025-09-29",
+    "time": "18:15",
+    "duration": "60 minutes",
+    "location": "Ozonefc Darhan — Mustaqillik Avenue, 88A",
+    "city": "Tashkent",
+    "description": "Gentle flow to relax after a long day."
+  }
+]

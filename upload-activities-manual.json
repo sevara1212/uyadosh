@@ -1,0 +1,204 @@
+{
+  "activities_upl": {
+    "1000": {
+      "id": "1000",
+      "title": "Tennis Court Tennis Session",
+      "sportType": "Tennis",
+      "hostId": "user1",
+      "host": {
+        "id": "user1",
+        "name": "User 1",
+        "email": "user1@example.com",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      "location": {
+        "address": "Oqqurghon Street, 16",
+        "city": "Tashkent",
+        "lat": 41.32,
+        "lng": 69.285
+      },
+      "dateTime": "2025-09-15T10:00:00.000Z",
+      "duration": 120,
+      "maxParticipants": 8,
+      "participants": [
+        {
+          "id": "user1",
+          "name": "User 1",
+          "email": "user1@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      ],
+      "approvedParticipants": [
+        {
+          "id": "user1",
+          "name": "User 1",
+          "email": "user1@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        }
+      ],
+      "pendingRequests": [],
+      "description": "A fun and social tennis event open to all skill levels!",
+      "price": 0
+    },
+    "1001": {
+      "id": "1001",
+      "title": "Yoga Space Yoga Session",
+      "sportType": "Yoga",
+      "hostId": "user2",
+      "host": {
+        "id": "user2",
+        "name": "User 2",
+        "email": "user2@example.com",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+      },
+      "location": {
+        "address": "Kichik Beshyogoch street, 56",
+        "city": "Tashkent",
+        "lat": 41.311,
+        "lng": 69.27
+      },
+      "dateTime": "2025-09-16T14:00:00.000Z",
+      "duration": 90,
+      "maxParticipants": 12,
+      "participants": [
+        {
+          "id": "user2",
+          "name": "User 2",
+          "email": "user2@example.com",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      ],
+      "approvedParticipants": [
+        {
+          "id": "user2",
+          "name": "User 2",
+          "email": "user2@example.com",
+          "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+      ],
+      "pendingRequests": [],
+      "description": "A fun and social yoga event open to all skill levels!",
+      "price": 0
+    },
+    "1002": {
+      "id": "1002",
+      "title": "Fitness First Gym Session",
+      "sportType": "Gym",
+      "hostId": "user3",
+      "host": {
+        "id": "user3",
+        "name": "User 3",
+        "email": "user3@example.com",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "location": {
+        "address": "Afrosiyob Street, 41",
+        "city": "Tashkent",
+        "lat": 41.31,
+        "lng": 69.28
+      },
+      "dateTime": "2025-09-17T18:00:00.000Z",
+      "duration": 120,
+      "maxParticipants": 15,
+      "participants": [
+        {
+          "id": "user3",
+          "name": "User 3",
+          "email": "user3@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+        }
+      ],
+      "approvedParticipants": [
+        {
+          "id": "user3",
+          "name": "User 3",
+          "email": "user3@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+        }
+      ],
+      "pendingRequests": [],
+      "description": "A fun and social gym event open to all skill levels!",
+      "price": 0
+    },
+    "1003": {
+      "id": "1003",
+      "title": "Running Track Running Session",
+      "sportType": "Running",
+      "hostId": "user4",
+      "host": {
+        "id": "user4",
+        "name": "User 4",
+        "email": "user4@example.com",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      "location": {
+        "address": "River Park",
+        "city": "Tashkent",
+        "lat": 41.33,
+        "lng": 69.31
+      },
+      "dateTime": "2025-09-18T07:00:00.000Z",
+      "duration": 60,
+      "maxParticipants": 20,
+      "participants": [
+        {
+          "id": "user4",
+          "name": "User 4",
+          "email": "user4@example.com",
+          "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+        }
+      ],
+      "approvedParticipants": [
+        {
+          "id": "user4",
+          "name": "User 4",
+          "email": "user4@example.com",
+          "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+        }
+      ],
+      "pendingRequests": [],
+      "description": "A fun and social running event open to all skill levels!",
+      "price": 0
+    },
+    "1004": {
+      "id": "1004",
+      "title": "Swimming Pool Swimming Session",
+      "sportType": "Swimming",
+      "hostId": "user5",
+      "host": {
+        "id": "user5",
+        "name": "User 5",
+        "email": "user5@example.com",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      "location": {
+        "address": "Yunusabad District",
+        "city": "Tashkent",
+        "lat": 41.35,
+        "lng": 69.29
+      },
+      "dateTime": "2025-09-19T16:00:00.000Z",
+      "duration": 90,
+      "maxParticipants": 10,
+      "participants": [
+        {
+          "id": "user5",
+          "name": "User 5",
+          "email": "user5@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+        }
+      ],
+      "approvedParticipants": [
+        {
+          "id": "user5",
+          "name": "User 5",
+          "email": "user5@example.com",
+          "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+        }
+      ],
+      "pendingRequests": [],
+      "description": "A fun and social swimming event open to all skill levels!",
+      "price": 0
+    }
+  }
+}

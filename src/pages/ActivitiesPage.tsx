@@ -335,6 +335,7 @@ const ActivitiesPage: React.FC = () => {
   const [showDetails, setShowDetails] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   
   const [filters, setFilters] = useState<FilterSettings>({
     distance: 25,
@@ -562,6 +563,19 @@ const ActivitiesPage: React.FC = () => {
   }
 
   const currentActivity = filteredActivities[currentIndex];
+  const toggleFavorite = (id: string) => {
+    setFavorites(prev => {
+      const newFavs = new Set(prev);
+      if (newFavs.has(id)) {
+        newFavs.delete(id);
+      } else {
+        newFavs.add(id);
+      }
+      return newFavs;
+    });
+  };
+
+  const displayFavorites = activities.filter(activity => favorites.has(activity.id));
   
   return (
     <Layout>
@@ -574,193 +588,68 @@ const ActivitiesPage: React.FC = () => {
           user-select: none;
         }
       `}</style>
-      <div className="min-h-screen bg-[#35179d] py-6 overflow-hidden swipe-container">
+      <div className="min-h-screen bg-white py-6 overflow-hidden swipe-container">
       {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="px-4 mb-6 flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-white mb-1">Discover Activities</h1>
-            <p className="text-white/70 text-sm">Find your next adventure</p>
+            <h1 className="text-2xl font-bold text-gray-900">Favorites</h1>
+            <p className="text-gray-600 text-sm">Your saved listings</p>
           </div>
-          <Dialog open={showFilters} onOpenChange={setShowFilters}>
-            <DialogTrigger asChild>
-              <Button
-                variant="outline"
-                size="sm"
-                className="text-white border-white/30 hover:bg-white/20 backdrop-blur-sm bg-[#35179d]/20 transition-all duration-200 hover:scale-105"
+          <button 
+            onClick={() => navigate('/')}
+            className="text-gray-400 hover:text-gray-600"
+          >
+            ←
+          </button>
+        </div>
+
+        {/* Display Favorites List */}
+        {displayFavorites.length > 0 ? (
+          <div className="px-4 space-y-4">
+            {displayFavorites.map((activity) => (
+              <div 
+                key={activity.id}
+                onClick={() => navigate(`/room/${activity.id}`)}
+                className="bg-white border border-gray-200 rounded-2xl p-4 cursor-pointer hover:shadow-lg transition"
               >
-                <SlidersHorizontal size={20} className="mr-2" />
-                Filters
-              </Button>
-            </DialogTrigger>
-            <DialogContent className="bg-white max-w-md">
-              <DialogHeader>
-                <DialogTitle>Filter Activities</DialogTitle>
-              </DialogHeader>
-              
-              <div className="space-y-6">
-                {/* Distance Filter */}
-                <div>
-                  <Label className="text-sm font-medium">Distance (km)</Label>
-                  <div className="flex items-center gap-2 mt-2">
-                    <Slider
-                      value={[filters.distance]}
-                      onValueChange={(value) => handleFilterChange({ distance: value[0] })}
-                      max={50}
-                      min={1}
-                      step={1}
-                      className="flex-1"
-                    />
-                    <span className="text-sm text-gray-600 w-12">{filters.distance}km</span>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center text-white text-2xl">
+                    🏠
                   </div>
-                </div>
-
-                {/* Age Range */}
-                <div>
-                  <Label className="text-sm font-medium">Age Range</Label>
-                  <div className="flex items-center gap-2 mt-2">
-                    <Slider
-                      value={filters.ageRange}
-                      onValueChange={(value) => handleFilterChange({ ageRange: value as [number, number] })}
-                      max={80}
-                      min={14}
-                      step={1}
-                      className="flex-1"
-                    />
-                    <span className="text-sm text-gray-600 w-20">
-                      {filters.ageRange[0]}-{filters.ageRange[1]}
-                    </span>
+                  <div className="flex-grow">
+                    <h3 className="font-bold text-gray-900">{activity.title}</h3>
+                    <p className="text-sm text-gray-600">{activity.location.address}</p>
+                    <div className="flex items-center gap-2 mt-2 text-sm text-gray-700">
+                      <span>👥 {activity.participants?.length || 0} roommate(s)</span>
+                    </div>
                   </div>
-      </div>
-
-                {/* Gender Filter */}
-                <div>
-                  <Label className="text-sm font-medium">Gender Preference</Label>
-                  <Select
-                    value={filters.gender}
-                    onValueChange={(value) => handleFilterChange({ gender: value as Gender | 'All' })}
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleFavorite(activity.id);
+                    }}
+                    className="text-[#FFC107] hover:text-yellow-600"
                   >
-                    <SelectTrigger>
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="All">All Genders</SelectItem>
-                      <SelectItem value={Gender.Male}>Male Only</SelectItem>
-                      <SelectItem value={Gender.Female}>Female Only</SelectItem>
-                    </SelectContent>
-                  </Select>
+                    <Heart size={20} fill="currentColor" />
+                  </button>
                 </div>
-
-                {/* Sport Types */}
-                <div>
-                  <Label className="text-sm font-medium">Sport Types</Label>
-                  <div className="grid grid-cols-2 gap-2 mt-2">
-          {Object.values(SportType).map((sport) => (
-                      <div key={sport} className="flex items-center space-x-2">
-                        <Checkbox
-                          id={sport}
-                          checked={filters.selectedSports.includes(sport)}
-                          onCheckedChange={(checked) => {
-                            if (checked) {
-                              handleFilterChange({
-                                selectedSports: [...filters.selectedSports, sport]
-                              });
-                            } else {
-                              handleFilterChange({
-                                selectedSports: filters.selectedSports.filter(s => s !== sport)
-                              });
-                            }
-                          }}
-                        />
-                        <Label htmlFor={sport} className="text-sm">{sport}</Label>
-                      </div>
-          ))}
-        </div>
-      </div>
-      
-                {/* Price Range */}
-                <div>
-                  <Label className="text-sm font-medium">Price Range ($)</Label>
-                  <div className="flex items-center gap-2 mt-2">
-                    <Slider
-                      value={filters.priceRange}
-                      onValueChange={(value) => handleFilterChange({ priceRange: value as [number, number] })}
-                      max={200}
-                      min={0}
-                      step={5}
-                      className="flex-1"
-                    />
-                    <span className="text-sm text-gray-600 w-20">
-                      ${filters.priceRange[0]}-${filters.priceRange[1]}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Location Services */}
-                <div className="flex items-center justify-between">
-                  <div>
-                    <Label className="text-sm font-medium">Use Location</Label>
-                    <p className="text-xs text-gray-500">Filter by distance from your location</p>
-                  </div>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={getCurrentLocation}
-                    disabled={filters.useLocation}
-                  >
-                    <Navigation size={16} className="mr-1" />
-                    {filters.useLocation ? 'Enabled' : 'Enable'}
-                  </Button>
-                </div>
-
-                {/* Reset Button */}
-                <Button
-                  variant="outline"
-                  onClick={resetFilters}
-                  className="w-full"
-                >
-                  Reset Filters
-                </Button>
               </div>
-            </DialogContent>
-          </Dialog>
-        </div>
-
-        {/* Activity Card */}
-        <div className="flex justify-center mb-8 touch-none">
-          <div className="relative">
-            <ActivityCard
-              activity={currentActivity}
-              onSwipeRight={handleSwipeRight}
-              onSwipeLeft={handleSwipeLeft}
-              onTap={handleTap}
-              showDetails={showDetails}
-            />
-            
-            {/* Swipe Instructions removed per request */}
+            ))}
           </div>
-            </div>
-
-        {/* Quick Actions */}
-        <div className="flex justify-center gap-6 mb-8 touch-none">
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full w-20 h-20 p-0 border-2 border-red-400 hover:border-red-500 hover:bg-red-500/20 text-red-400 backdrop-blur-sm shadow-lg transition-all duration-200 hover:scale-105"
-            onClick={handleSwipeLeft}
-          >
-            <X size={28} />
-          </Button>
-          
-          <Button
-            variant="outline"
-            size="lg"
-            className="rounded-full w-20 h-20 p-0 border-2 border-green-400 hover:border-green-500 hover:bg-green-500/20 text-green-400 backdrop-blur-sm shadow-lg transition-all duration-200 hover:scale-105"
-            onClick={handleSwipeRight}
-          >
-            <Heart size={28} />
-          </Button>
-            </div>
-            </div>
+        ) : (
+          <div className="text-center py-12 px-4">
+            <Heart size={48} className="text-gray-300 mx-auto mb-4" />
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">No favorites yet</h3>
+            <p className="text-gray-600 mb-4">Save listings to view them here</p>
+            <Button 
+              onClick={() => navigate('/')}
+              className="bg-[#1e3a8a] text-white hover:bg-blue-900"
+            >
+              Browse Listings
+            </Button>
+          </div>
+        )}
+      </div>
     </Layout>
   );
 };

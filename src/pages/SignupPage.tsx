@@ -10,9 +10,9 @@ import { toast } from "sonner";
 import { useAuth } from "@/contexts/AuthContext";
 import { doc, setDoc, usersCollection } from "@/lib/firebase";
 import { ActivityLevel, Gender } from "@/types";
-import { ArrowLeft } from 'lucide-react';
-import muvrLogo from '/public/images/muvr_logo.png';
+import { ArrowLeft, Eye, EyeOff } from 'lucide-react';
 import { emailService } from "@/services/emailService";
+import logo from '/public/images/logo.jpg';
 
 const strongPasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
 
@@ -164,32 +164,38 @@ const SignupPage = () => {
   const allPasswordChecksPassed = passwordChecks.every(check => check.test(password));
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#f5f6fa] to-[#e9e6f7]">
+    <div className="flex items-center justify-center min-h-screen bg-white" style={{ fontFamily: 'Inter, sans-serif' }}>
       <div className="absolute top-6 left-6">
         <button
           onClick={() => navigate('/')}
-          className="flex items-center gap-2 text-[#35179d] hover:text-[#2a146a] transition-colors duration-200 font-medium"
+          className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
         >
           <ArrowLeft size={20} />
           <span>Back to Home</span>
         </button>
       </div>
-      <Card className="w-full max-w-md p-8 shadow-xl border-0">
-        <div className="flex flex-col items-center mb-6">
-          <img src={muvrLogo} alt="Muvr Logo" className="h-14 mb-2" />
-          <div className="text-2xl font-extrabold text-[#35179d] tracking-tight">Muvr</div>
+      <Card className="w-full max-w-md p-8 shadow-lg border border-gray-100 bg-white overflow-y-auto max-h-screen">
+        <div className="flex flex-col items-center mb-8">
+          {/* Uyadosh Logo Circle */}
+          <div className="flex items-center justify-center rounded-lg overflow-hidden mb-4" style={{ height: '80px', width: '80px', minWidth: '80px' }}>
+            <img src={logo} alt="Uyadosh Logo" className="h-full w-full object-cover" />
+          </div>
+              <h1 className="text-4xl font-bold text-gray-900 text-center leading-tight" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 'bold' }}>
+                Uyadosh
+              </h1>
+          <p className="text-gray-500 text-sm mt-2" style={{ fontFamily: 'Inter, sans-serif' }}>Find your perfect roommate</p>
         </div>
         <form onSubmit={handleSignup} className="space-y-5">
-          <div className="text-lg font-semibold text-center mb-1 text-[#35179d]">Create an account</div>
-          <div className="text-center text-gray-500 mb-4 text-sm">
-            Enter your information to create an account
+          <div className="text-lg font-semibold text-center mb-1 text-gray-900" style={{ fontFamily: 'Inter, sans-serif' }}>Create an account</div>
+          <div className="text-center text-gray-500 mb-4 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
+            Join uyadosh to find your perfect roommate
           </div>
           {formError && (
-            <div className="text-center text-red-600 text-xs mb-2 bg-red-50 rounded p-2 border border-red-200">{formError}</div>
+            <div className="text-center text-red-600 text-xs mb-2 bg-red-50 rounded p-2 border border-red-200" style={{ fontFamily: 'Inter, sans-serif' }}>{formError}</div>
           )}
           <div className="space-y-3">
             <div>
-              <Label htmlFor="name">Full Name</Label>
+              <Label htmlFor="name" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Full Name</Label>
               <Input
                 id="name"
                 type="text"
@@ -197,10 +203,12 @@ const SignupPage = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
+                className="bg-gray-50 border-gray-200 focus:border-gray-600 focus:ring-gray-600"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               />
             </div>
             <div>
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Email</Label>
               <Input
                 id="email"
                 type="email"
@@ -208,23 +216,28 @@ const SignupPage = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                className="bg-gray-50 border-gray-200 focus:border-gray-600 focus:ring-gray-600"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               />
             </div>
             <div>
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Password</Label>
               <Input
                 id="password"
                 type="password"
+                placeholder="••••••••"
                 value={password}
                 onChange={handlePasswordChange}
                 minLength={8}
                 required
+                className="bg-gray-50 border-gray-200 focus:border-gray-600 focus:ring-gray-600"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               />
               <div className="mt-2 space-y-1">
                 {passwordChecks.map((check, idx) => {
                   const passed = check.test(password);
                   return (
-                    <div key={idx} className="flex items-center gap-2 text-xs">
+                    <div key={idx} className="flex items-center gap-2 text-xs" style={{ fontFamily: 'Inter, sans-serif' }}>
                       <span className={passed ? "text-green-600" : "text-red-500"}>{passed ? "✔️" : "❌"}</span>
                       <span className={passed ? "text-green-700" : "text-gray-700"}>{check.label}</span>
                     </div>
@@ -233,12 +246,13 @@ const SignupPage = () => {
               </div>
             </div>
             <div>
-              <Label htmlFor="gender">Gender</Label>
+              <Label htmlFor="gender" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Gender</Label>
               <select
                 id="gender"
                 value={gender}
                 onChange={(e) => setGender(e.target.value as Gender)}
-                className="w-full px-3 py-2 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#35179d] text-black text-sm bg-white mt-1"
+                className="w-full px-3 py-2 rounded border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black text-sm bg-white mt-1"
+                style={{ fontFamily: 'Inter, sans-serif' }}
                 required
               >
                 <option value="">Select gender</option>
@@ -248,7 +262,7 @@ const SignupPage = () => {
               </select>
             </div>
             <div>
-              <Label htmlFor="age">Age</Label>
+              <Label htmlFor="age" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Age</Label>
               <Input
                 id="age"
                 type="number"
@@ -257,21 +271,24 @@ const SignupPage = () => {
                 max="75"
                 value={age}
                 onChange={(e) => setAge(e.target.value)}
-                className="w-full"
+                className="w-full bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-blue-500"
+                style={{ fontFamily: 'Inter, sans-serif' }}
                 required
               />
             </div>
           </div>
-          <Button type="submit" className="w-full py-2 rounded bg-[#35179d] text-white font-bold text-base mt-2 hover:bg-[#2a146a] transition" disabled={loading}>
+          <Button 
+            type="submit" 
+            className="w-full py-2 rounded-xl bg-gray-800 text-white font-semibold text-base mt-2 hover:bg-gray-900 transition" 
+            disabled={loading}
+            style={{ fontFamily: 'Inter, sans-serif' }}
+          >
             {loading ? "Creating account..." : "Sign up"}
           </Button>
           
-          {/* Test EmailJS button - remove in production */}
-          {/* Removed: EmailJS test button since we now use Brevo OTP API */}
-          
-          <div className="text-center text-xs mt-3 text-gray-500">
+          <div className="text-center text-sm mt-4 text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
             Already have an account?{' '}
-            <Link to="/login" className="text-[#35179d] font-semibold hover:underline">Login</Link>
+            <Link to="/login" className="text-gray-800 font-semibold hover:text-gray-900 transition">Login</Link>
           </div>
         </form>
       </Card>

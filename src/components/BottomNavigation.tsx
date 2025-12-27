@@ -1,6 +1,6 @@
 
 import { useLocation, useNavigate } from "react-router-dom";
-import { Home, Heart, Plus, Calendar, User } from "lucide-react";
+import { Home, Heart, MessageCircle, User } from "lucide-react";
 
 const BottomNavigation = () => {
   const navigate = useNavigate();
@@ -10,46 +10,40 @@ const BottomNavigation = () => {
   const isActive = (path: string) => currentPath === path;
   
   return (
-    <div className="bottom-nav-fixed h-16 flex items-center justify-between px-6">
+    <div className="bottom-nav-fixed h-16 flex items-center justify-between px-6 bg-white border-t border-gray-200">
       <button 
         onClick={() => navigate('/')}
-        className={`flex flex-col items-center justify-center flex-1 ${isActive('/') ? 'text-[#35179d]' : 'text-gray-400'}`}
+        className={`flex flex-col items-center justify-center flex-1 gap-1 ${isActive('/') ? 'text-[#FFC107]' : 'text-gray-400'}`}
       >
-        <Home size={20} />
-        <span className="text-xs mt-1">Home</span>
+        <Home size={24} />
+        <span className="text-xs">Home</span>
       </button>
       
       <button 
         onClick={() => navigate('/activities')}
-        className={`flex flex-col items-center justify-center flex-1 ${isActive('/activities') ? 'text-[#35179d]' : 'text-gray-400'}`}
+        className={`flex flex-col items-center justify-center flex-1 gap-1 ${isActive('/activities') ? 'text-[#FFC107]' : 'text-gray-400'}`}
       >
-        <Heart size={20} />
-        <span className="text-xs mt-1">Activities</span>
+        <Heart size={24} />
+        <span className="text-xs">Favorites</span>
       </button>
       
-      <div className="flex-1 flex justify-center">
-        <button 
-          onClick={() => navigate('/create')}
-          className="flex flex-col items-center justify-center bg-[#35179d] text-white rounded-full w-14 h-14 shadow-lg border-4 border-white -mt-2"
-        >
-          <Plus size={28} />
-        </button>
-      </div>
-      
       <button 
-        onClick={() => navigate('/upcoming')}
-        className={`flex flex-col items-center justify-center flex-1 ${isActive('/upcoming') ? 'text-[#35179d]' : 'text-gray-400'}`}
+        onClick={() => navigate('/chats')}
+        className={`flex flex-col items-center justify-center flex-1 gap-1 relative ${isActive('/chats') ? 'text-[#FFC107]' : 'text-gray-400'}`}
       >
-        <Calendar size={20} />
-        <span className="text-xs mt-1">Upcoming</span>
+        <div className="relative">
+          <MessageCircle size={24} />
+          <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full"></span>
+        </div>
+        <span className="text-xs">Messages</span>
       </button>
       
       <button 
         onClick={() => navigate('/profile')}
-        className={`flex flex-col items-center justify-center flex-1 ${isActive('/profile') ? 'text-[#35179d]' : 'text-gray-400'}`}
+        className={`flex flex-col items-center justify-center flex-1 gap-1 ${isActive('/profile') ? 'text-[#FFC107]' : 'text-gray-400'}`}
       >
-        <User size={20} />
-        <span className="text-xs mt-1">Chats</span>
+        <User size={24} />
+        <span className="text-xs">Profile</span>
       </button>
     </div>
   );

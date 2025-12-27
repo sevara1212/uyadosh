@@ -22,6 +22,7 @@ import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import ChatPage from "./pages/ChatPage";
 import ChatsPage from "./pages/ChatsPage";
+import ChatWithUserPage from "./pages/ChatWithUserPage";
 import RequestsPage from "./pages/RequestsPage";
 import SentRequestsPage from "./pages/SentRequestsPage";
 import UpcomingPage from "./pages/UpcomingPage";
@@ -101,6 +102,7 @@ const App = () => {
               <Route path="/verify-email" element={<VerifyEmailPage />} />
               <Route path="/chat/:roomId" element={<ChatPage />} />
               <Route path="/chats" element={<ChatsPage />} />
+              <Route path="/chat-with/:userId" element={<ChatWithUserPage />} />
               <Route path="/requests" element={<RequestsPage />} />
               <Route path="/sent-requests" element={<SentRequestsPage />} />
               <Route path="*" element={<NotFoundWithLayout />} />

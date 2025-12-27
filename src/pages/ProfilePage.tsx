@@ -3,7 +3,8 @@ import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { ActivityLevel, SportType, Room } from "@/types";
-import { ArrowLeft, Check, Camera, Edit2, X, Loader2, MessageCircle, Bell, User, Heart, Plus, Send } from "lucide-react";
+import { ArrowLeft, Check, Camera, Edit2, X, Loader2, LogOut, Heart, Plus, Send, Settings, HelpCircle } from "lucide-react";
+import logo from '/public/images/logo.jpg';
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
@@ -178,231 +179,87 @@ const ProfilePage = () => {
   
   return (
     <Layout>
-      <div className="min-h-screen bg-[#35179d] py-6">
+      <div className="min-h-screen bg-white">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <div className="flex items-center">
-            <ArrowLeft 
-              size={20} 
-              className="mr-3 cursor-pointer text-white hover:text-white/80 transition-colors" 
-              onClick={() => navigate(-1)}
-            />
-            <div>
-              <h1 className="text-2xl font-bold text-white mb-1">Chats</h1>
-              <p className="text-white/70 text-sm">Stay connected with your activities</p>
-            </div>
-          </div>
-          
-          {/* Profile Button */}
-          <Button 
-            variant="outline" 
-            size="sm"
-            className="text-white border-white/30 hover:bg-white/20 bg-[#35179d]/20 rounded-full w-12 h-12 p-0 transition-all duration-200 hover:scale-105 shadow-lg"
-            onClick={() => navigate('/profile-settings')}
-          >
-            <User className="h-5 w-5" />
-          </Button>
+        <div className="sticky top-0 bg-white border-b border-gray-200 p-4 flex items-center justify-between">
+          <ArrowLeft 
+            size={20} 
+            className="cursor-pointer text-gray-700"
+            onClick={() => navigate(-1)}
+          />
+          <h1 className="text-xl font-bold text-gray-900">Profile</h1>
+          <div className="w-6"></div>
         </div>
-        
-        {/* Chats Content */}
-        <div className="space-y-6">
-          {/* Messages & Requests Section */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="mb-6">
-              <div className="flex items-center justify-between">
-                <h3 className="text-2xl font-bold text-gray-900">Messages & Requests</h3>
-                <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                  <User className="w-4 h-4 text-purple-600" />
-                </div>
-              </div>
+
+        {/* Profile Content */}
+        <div className="max-w-2xl mx-auto">
+          {/* Profile Header */}
+          <div className="text-center py-8 border-b border-gray-100">
+            <div className="w-20 h-20 mx-auto mb-4 rounded-lg overflow-hidden flex items-center justify-center" style={{ background: '#f3f4f6' }}>
+              <img src={logo} alt="Uyadosh" className="h-full w-full object-cover" />
             </div>
-            
-            {/* Tab Navigation */}
-            <div className="flex bg-gray-100 rounded-lg p-1 mb-6">
-              <button
-                onClick={() => setActiveTab('join-requests')}
-                className={`flex-1 py-3 px-4 rounded-md text-sm font-medium transition-all duration-200 flex items-center justify-center ${
-                  activeTab === 'join-requests'
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                Join Requests
-                {joinedActivities.length > 0 && (
-                  <span className="ml-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full font-medium">
-                    {joinedActivities.length}
-                  </span>
-                )}
-              </button>
-              <button
-                onClick={() => setActiveTab('sent-requests')}
-                className={`flex-1 py-3 px-4 rounded-md text-sm font-medium transition-all duration-200 flex items-center justify-center ${
-                  activeTab === 'sent-requests'
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                Sent Requests
-                {sentRequests.length > 0 && (
-                  <span className="ml-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full font-medium">
-                    {sentRequests.length}
-                  </span>
-                )}
-              </button>
-              <button
-                onClick={() => setActiveTab('activity-chats')}
-                className={`flex-1 py-3 px-4 rounded-md text-sm font-medium transition-all duration-200 flex items-center justify-center ${
-                  activeTab === 'activity-chats'
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                Activity Chats
-              </button>
-            </div>
-
-            {/* Tab Content */}
-            {activeTab === 'join-requests' && (
-              <div>
-                {joinedActivities.length === 0 ? (
-                  <div className="text-center py-8">
-                    <Bell size={40} className="text-white/50 mx-auto mb-3" />
-                    <p className="text-white/80 text-base font-medium mb-1">No join requests</p>
-                    <p className="text-white/60 text-sm">You'll be notified when someone wants to join your activities</p>
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    {joinedActivities.slice(0, 5).map((activity) => (
-                      <div 
-                        key={activity.id}
-                        className="flex items-center gap-4 p-4 bg-white/5 rounded-xl cursor-pointer hover:bg-white/10 transition-all duration-200 border border-white/10"
-                        onClick={() => navigate(`/room/${activity.id}`)}
-                      >
-                        <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center shadow-lg">
-                          <span className="text-xl">{getSportIcon(activity.sportType)}</span>
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-white truncate text-base">{activity.title}</h4>
-                          <p className="text-white/70 text-sm truncate">
-                            {new Date(activity.dateTime).toLocaleDateString()}
-                          </p>
-                        </div>
-                        <Badge className="bg-green-500 text-white text-xs">New</Badge>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {activeTab === 'sent-requests' && (
-              <div>
-                {sentRequests.length === 0 ? (
-                  <div className="text-center py-8">
-                    <Send size={40} className="text-white/50 mx-auto mb-3" />
-                    <p className="text-white/80 text-base font-medium mb-1">No sent requests</p>
-                    <p className="text-white/60 text-sm">You haven't sent any join requests yet</p>
-                    <Button 
-                      className="mt-4 bg-[#35179d] hover:bg-[#35179d]/80 text-white"
-                      onClick={() => navigate('/activities')}
-                    >
-                      Find Activities
-                    </Button>
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    {sentRequests.map((activity) => (
-                      <div 
-                        key={activity.id}
-                        className="flex items-center gap-4 p-4 bg-white/5 rounded-xl cursor-pointer hover:bg-white/10 transition-all duration-200 border border-white/10"
-                        onClick={() => navigate(`/room/${activity.id}`)}
-                      >
-                        <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center shadow-lg">
-                          <span className="text-xl">{getSportIcon(activity.sportType)}</span>
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-white truncate text-base">{activity.title}</h4>
-                          <p className="text-white/70 text-sm truncate">
-                            Hosted by {activity.hostName || 'Unknown'}
-                          </p>
-                          <p className="text-white/60 text-xs truncate">
-                            {new Date(activity.dateTime).toLocaleDateString()}
-                          </p>
-                        </div>
-                        <Badge className="bg-yellow-500 text-white text-xs">Pending</Badge>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {activeTab === 'activity-chats' && (
-              <div>
-                {involvedActivities.length === 0 ? (
-                  <div className="text-center py-8">
-                    <MessageCircle size={40} className="text-white/50 mx-auto mb-3" />
-                    <p className="text-white/80 text-base font-medium mb-1">No active chats</p>
-                    <p className="text-white/60 text-sm">Join activities to start chatting with other participants</p>
-                    <Button 
-                      className="mt-4 bg-[#35179d] hover:bg-[#35179d]/80 text-white"
-                      onClick={() => navigate('/activities')}
-                    >
-                      Find Activities
-                    </Button>
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    {involvedActivities.map((activity) => (
-                      <div 
-                        key={activity.id}
-                        className="flex items-center gap-4 p-4 bg-white/5 rounded-xl cursor-pointer hover:bg-white/10 transition-all duration-200 border border-white/10"
-                        onClick={() => navigate(`/chat/${activity.id}`)}
-                      >
-                        <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center shadow-lg">
-                          <span className="text-xl">{getSportIcon(activity.sportType)}</span>
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-white truncate text-base">{activity.title}</h4>
-                          <p className="text-white/70 text-sm truncate">
-                            {activity.hostId === currentUser?.id ? 'You created this' : `Hosted by ${activity.hostName || 'Unknown'}`}
-                          </p>
-                          <p className="text-white/60 text-xs truncate">
-                            {new Date(activity.dateTime).toLocaleDateString()}
-                          </p>
-                        </div>
-                        <MessageCircle size={18} className="text-white/60" />
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
+            <h2 className="text-2xl font-bold text-gray-900 mb-1">{displayUser?.displayName || 'User'}</h2>
+            <p className="text-gray-600 mb-3">{displayUser?.email}</p>
+            <Badge className="bg-gray-800 text-white border border-gray-700">
+              ✓ Verified User
+            </Badge>
           </div>
 
-          {/* Quick Actions */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 shadow-lg">
-            <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-1">Quick Actions</h3>
-              <p className="text-white/70 text-sm">Get started quickly</p>
+          {/* Edit Profile Button */}
+          <div className="p-4">
+            <Button 
+              onClick={() => navigate('/profile-settings')}
+              className="w-full bg-gray-800 text-white hover:bg-gray-900 font-bold py-3 rounded-full transition"
+            >
+              Edit Profile
+            </Button>
+          </div>
+
+          {/* Menu Items */}
+          <div className="divide-y divide-gray-200">
+            {/* My Listings */}
+            <div 
+              onClick={() => navigate('/activities')}
+              className="p-4 hover:bg-gray-50 cursor-pointer transition flex items-center justify-between"
+            >
+              <span className="font-semibold text-gray-900">My Listings</span>
+              <span className="text-gray-400">→</span>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <Button 
-                variant="outline"
-                className="text-white border-white/30 hover:bg-white/20 bg-[#35179d]/20 transition-all duration-200 hover:scale-105 h-12"
-                onClick={() => navigate('/activities')}
-              >
-                <Heart className="h-5 w-5 mr-2" />
-                Discover
-              </Button>
-              <Button 
-                variant="outline"
-                className="text-white border-white/30 hover:bg-white/20 bg-[#35179d]/20 transition-all duration-200 hover:scale-105 h-12"
-                onClick={() => navigate('/create')}
-              >
-                <Plus className="h-5 w-5 mr-2" />
-                Create
-              </Button>
+
+            {/* Settings */}
+            <div 
+              onClick={() => navigate('/profile-settings')}
+              className="p-4 hover:bg-gray-50 cursor-pointer transition flex items-center justify-between"
+            >
+              <div className="flex items-center gap-3">
+                <Settings size={20} className="text-gray-700" />
+                <span className="font-semibold text-gray-900">Settings</span>
+              </div>
+              <span className="text-gray-400">→</span>
+            </div>
+
+            {/* Help & Support */}
+            <div 
+              onClick={() => toast.info('Help & Support coming soon')}
+              className="p-4 hover:bg-gray-50 cursor-pointer transition flex items-center justify-between"
+            >
+              <div className="flex items-center gap-3">
+                <HelpCircle size={20} className="text-gray-700" />
+                <span className="font-semibold text-gray-900">Help & Support</span>
+              </div>
+              <span className="text-gray-400">→</span>
+            </div>
+
+            {/* Logout */}
+            <div 
+              onClick={handleLogout}
+              className="p-4 hover:bg-red-50 cursor-pointer transition flex items-center justify-between"
+            >
+              <div className="flex items-center gap-3">
+                <LogOut size={20} className="text-red-500" />
+                <span className="font-semibold text-red-500">Log Out</span>
+              </div>
+              <span className="text-gray-400">→</span>
             </div>
           </div>
         </div>

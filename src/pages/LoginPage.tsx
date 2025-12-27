@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { useAuth } from "@/contexts/AuthContext";
 import { Eye, EyeOff, ArrowLeft } from 'lucide-react';
-import muvrLogo from '/public/images/muvr_logo.png';
+import logo from '/public/images/logo.jpg';
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -80,29 +80,35 @@ const LoginPage = () => {
   };
   
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#f5f6fa] to-[#e9e6f7]">
+    <div className="flex items-center justify-center min-h-screen bg-white" style={{ fontFamily: 'Inter, sans-serif' }}>
       <div className="absolute top-6 left-6">
         <button
           onClick={() => navigate('/')}
-          className="flex items-center gap-2 text-[#35179d] hover:text-[#2a146a] transition-colors duration-200 font-medium"
+          className="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors duration-200 font-medium"
         >
           <ArrowLeft size={20} />
           <span>Back to Home</span>
         </button>
       </div>
-      <Card className="w-full max-w-md p-8 shadow-xl border-0">
-        <div className="flex flex-col items-center mb-6">
-          <img src={muvrLogo} alt="Muvr Logo" className="h-14 mb-2" />
-          <div className="text-2xl font-extrabold text-[#35179d] tracking-tight">Muvr</div>
+      <Card className="w-full max-w-md p-8 shadow-lg border border-gray-100 bg-white">
+        <div className="flex flex-col items-center mb-8">
+          {/* Uyadosh Logo Circle */}
+          <div className="flex items-center justify-center rounded-lg overflow-hidden mb-4" style={{ height: '80px', width: '80px', minWidth: '80px' }}>
+            <img src={logo} alt="Uyadosh Logo" className="h-full w-full object-cover" />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-900 text-center leading-tight" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 'bold' }}>
+            Uyadosh
+          </h1>
+          <p className="text-gray-500 text-sm mt-2" style={{ fontFamily: 'Inter, sans-serif' }}>Find your perfect roommate</p>
         </div>
         <form onSubmit={handleLogin} className="space-y-5">
-          <div className="text-lg font-semibold text-center mb-1 text-[#35179d]">Login</div>
-          <div className="text-center text-gray-500 mb-4 text-sm">
-            Enter your email and password to login to your account
+          <div className="text-lg font-semibold text-center mb-1 text-gray-900" style={{ fontFamily: 'Inter, sans-serif' }}>Login</div>
+          <div className="text-center text-gray-500 mb-4 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
+            Enter your email and password to access your account
           </div>
           <div className="space-y-3">
             <div>
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Email</Label>
               <div className="relative">
                 <Input
                   id="email"
@@ -111,7 +117,8 @@ const LoginPage = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="pr-10"
+                  className="pr-10 bg-gray-50 border-gray-200 focus:border-gray-600 focus:ring-gray-600"
+                  style={{ fontFamily: 'Inter, sans-serif' }}
                 />
                 <span className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
                   <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" stroke="none"/><path d="M4 4l8 8 8-8"/></svg>
@@ -119,20 +126,22 @@ const LoginPage = () => {
               </div>
             </div>
             <div>
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password" className="text-gray-700 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>Password</Label>
               <div className="relative">
                 <Input
                   id="password"
                   type={showPassword ? "text" : "password"}
+                  placeholder="••••••••"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  className="pr-10"
+                  className="pr-10 bg-gray-50 border-gray-200 focus:border-gray-600 focus:ring-gray-600"
+                  style={{ fontFamily: 'Inter, sans-serif' }}
                 />
                 <button
                   type="button"
                   tabIndex={-1}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#35179d] focus:outline-none"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 focus:outline-none"
                   onClick={() => setShowPassword((v) => !v)}
                   aria-label={showPassword ? "Hide password" : "Show password"}
                 >
@@ -143,15 +152,20 @@ const LoginPage = () => {
           </div>
           {localError && (
             <div className="text-center text-red-600 text-sm mb-2 bg-red-50 rounded p-3 border border-red-200">
-              <div className="font-medium">{localError}</div>
+              <div className="font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>{localError}</div>
             </div>
           )}
-          <Button type="submit" className="w-full py-2 rounded bg-[#35179d] text-white font-bold text-base mt-2 hover:bg-[#2a146a] transition" disabled={loading}>
+          <Button 
+            type="submit" 
+            className="w-full py-2 rounded-xl bg-gray-800 text-white font-semibold text-base mt-2 hover:bg-gray-900 transition" 
+            disabled={loading}
+            style={{ fontFamily: 'Inter, sans-serif' }}
+          >
             {loading ? "Logging in..." : "Login"}
           </Button>
-          <div className="text-center text-xs mt-3 text-gray-500">
+          <div className="text-center text-sm mt-4 text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
             Don't have an account?{' '}
-            <Link to="/signup" className="text-[#35179d] font-semibold hover:underline">Sign up</Link>
+            <Link to="/signup" className="text-gray-800 font-semibold hover:text-gray-900 transition">Sign up</Link>
           </div>
         </form>
       </Card>
